@@ -1,0 +1,35 @@
+{
+  "model": "sonnet",
+  "permissions": {
+    "allow": [
+      "Read(~/.claude/plugins/**)",
+      "Edit(./Clientes/**)",
+      "Edit(./.claude/tmp/**)",
+      "Bash(cd *)",
+      "Bash(ls)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(wc *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(export PYTHONUTF8=1)",
+      "Bash(python *)",
+      "Bash(py *)",
+      "PowerShell(python *)",
+      "PowerShell(py *)",
+      "PowerShell(Set-Location *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Read(./_arquivo/**)",
+      "Edit(~/.claude/plugins/**)"
+    ]
+  }
+}

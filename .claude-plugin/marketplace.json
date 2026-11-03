@@ -1,0 +1,14 @@
+{
+  "name": "ee-trieme",
+  "owner": {
+    "name": "Trieme & Co"
+  },
+  "description": "Marketplace do pacote ee-trieme: padrão da Estruturação Estratégica da Trieme & Co",
+  "plugins": [
+    {
+      "name": "ee-trieme",
+      "source": "./",
+      "description": "Padrão da Estruturação Estratégica (EE) da Trieme & Co"
+    }
+  ]
+}

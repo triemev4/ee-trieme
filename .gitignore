@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.local.md
+.claude/
+.env
+.env.*
+!.env.example
+EE/
+Clientes/
+estudos/
+validacao/

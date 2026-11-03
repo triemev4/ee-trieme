@@ -1,0 +1,778 @@
+{
+  "_leia": "Exemplo público inteiramente fictício da Semana 3. Empresa, pessoas, falas, números e evidências são sintéticos para demonstração; não descrevem clientes reais. As imagens de teste também são sintéticas.",
+  "_cliente": "Ateliê Rocha",
+  "geral": {
+    "titulo": "Diagnóstico de Marketing · Ateliê Rocha",
+    "cliente": "Ateliê Rocha",
+    "inicial": "A",
+    "consultor": "Consultor",
+    "amarra_para": "Para o Ateliê Rocha"
+  },
+  "opcionais": {
+    "tela-06": true,
+    "tela-07": false,
+    "tela-08": true,
+    "tela-10": true,
+    "tela-11": true
+  },
+  "tela-01": {
+    "vimos": [
+      "Mercado de móveis planejados em Curitiba dimensionado na Semana 2, com o SOM comparado à meta de 8 projetos por mês.",
+      "ICP fechado: casal de 30 a 45 anos com apartamento novo na planta."
+    ],
+    "trava": "**A trava deste encontro:** \"o Instagram traz curioso, não traz projeto\" (sócio, Kickoff).",
+    "hoje": [
+      "Ponto de partida, rastreamento e estratégia por público.",
+      "Canais, ativos que o comprador vê, site, perfil e criativos pertinentes.",
+      "Forecast fundamentado, primeiras ações e próximos passos."
+    ],
+    "pausa": "O que mudou desde a Pesquisa de Mercado?"
+  },
+  "tela-02": {
+    "lede": "Rastreamento, Meta Ads, Google Meu Negócio, site, Instagram e criativos do Ateliê Rocha.",
+    "destaques": [
+      {
+        "rotulo": "Pixel do Meta",
+        "valor": "Instalado, sem eventos"
+      },
+      {
+        "rotulo": "Avaliações no Google",
+        "valor": "4,8 (37)"
+      }
+    ]
+  },
+  "tela-04": {
+    "abertura": "Hoje vamos ver se o Ateliê Rocha sabe de onde vem cada pedido de orçamento.",
+    "titulo": "O pixel está no site, mas nenhum orçamento é registrado",
+    "amarra": {
+      "pilar": "Rastreamento",
+      "dor": "\"Não sei se o orçamento veio do anúncio ou da indicação\" (sócio, Kickoff)",
+      "para": "o formulário de orçamento passa a contar como conversão no Meta e no GA4"
+    },
+    "explicador": "Rastrear é registrar no site cada pedido de orçamento e dizer ao Meta e ao Google de qual anúncio ele veio.",
+    "pontos": [
+      "**Pixel sem evento de orçamento:** o pixel conta visitas, não pedidos. Implicação: o Meta otimiza para clique, não para projeto."
+    ],
+    "solucoes": [
+      "Evento de orçamento enviado pelo GTM ao Meta e ao GA4.",
+      "Campo \"como nos conheceu\" no formulário, gravado na planilha de orçamentos.",
+      "Conferir os eventos antes de subir a verba.",
+      "Relatório mensal de orçamentos por origem."
+    ],
+    "estrutura_titulo": "o formulário de orçamento como único ponto de medida",
+    "origem": {
+      "titulo": "Site (WordPress)",
+      "texto": "visitas, galeria de projetos, formulário de orçamento"
+    },
+    "conteiner": {
+      "titulo": "GTM",
+      "texto": "um contêiner com o evento de orçamento"
+    },
+    "destinos": [
+      {
+        "titulo": "GA4",
+        "texto": "origem de cada orçamento"
+      },
+      {
+        "titulo": "Pixel do Meta",
+        "texto": "otimização para orçamento"
+      }
+    ],
+    "leitura": {
+      "titulo": "Leitura da Fase 1",
+      "texto": "custo por orçamento e orçamentos por origem"
+    },
+    "eventos": "visualização da galeria · início do formulário · envio do orçamento · clique no WhatsApp",
+    "acoes": [
+      {
+        "titulo": "Instalar o GTM",
+        "texto": "Inserir o contêiner no site e conferir em todas as páginas."
+      },
+      {
+        "titulo": "Criar o evento de orçamento",
+        "texto": "Disparar o evento no envio do formulário e no clique do WhatsApp."
+      }
+    ],
+    "fontes": [
+      {
+        "rotulo": "Fonte:",
+        "texto": "teste do pixel feito pela V4 no site em 02/10/2026 (Meta Pixel Helper)."
+      }
+    ],
+    "pausa": "Quem recebe hoje os pedidos de orçamento do site?"
+  },
+  "tela-12": {
+    "titulo": "Forecast de investimento: hipótese a validar com a verba de vocês",
+    "amarra": {
+      "pilar": "Mídia paga",
+      "dor": "\"Já gastei com impulsionamento e não vi retorno\" (sócio, Kickoff)",
+      "para": "uma faixa de verba com critério para subir ou parar"
+    },
+    "lede": "A verba mínima e máxima não foi declarada no Kickoff. A faixa abaixo é hipótese montada da meta de 8 projetos por mês e troca pela faixa do cliente assim que ele responder.",
+    "rosca": {
+      "f1": 70,
+      "f2": 30,
+      "f3": 0,
+      "f4": 0,
+      "f5": 0,
+      "f6": 0,
+      "total": "R$ 3.000",
+      "unidade": "HIPÓTESE"
+    },
+    "legenda": [
+      {
+        "rotulo": "Meta · Orçamento · 70%",
+        "valor": "R$ 2.100",
+        "texto": "Anúncio com galeria de projetos, apontando para o formulário."
+      },
+      {
+        "rotulo": "Meta · Remarketing · 30%",
+        "valor": "R$ 900",
+        "texto": "Quem viu a galeria e não pediu orçamento."
+      }
+    ],
+    "legenda_grupo2": [],
+    "fase_atual": {
+      "rotulo": "Fase 1 · meses 1 a 3",
+      "titulo": "Conservador",
+      "texto": "Medir o custo por orçamento qualificado sem mudar a divisão."
+    },
+    "fases_seguintes": [
+      {
+        "rotulo": "Fase 2 · meses 4 a 6",
+        "titulo": "Redivisão",
+        "texto": "Redividir o mesmo total pelo custo por orçamento real e decidir continuar, subir ou parar."
+      }
+    ],
+    "cenarios_titulo": "Teste, verba disponível e condição de avanço",
+    "cenarios": [
+      {
+        "rotulo": "Conservador →",
+        "titulo": "R$ 3.000/mês",
+        "texto": "Só Meta. Sem referência pública para este setor e canal; medir na Fase 1."
+      }
+    ],
+    "fonte": "hipótese V4 a partir da meta de 8 projetos por mês declarada no Kickoff (01/10/2026); custo por resultado sem referência pública para o setor.",
+    "pausa": "Qual verba mínima e máxima cabe por mês?",
+    "_nota": "Forecast depois da estratégia: separar referência de custo, histórico próprio, verba, cenário e resultado. Não criar três cenários sem base. Rosca mantém fatias da verba; sem retorno defensável, registrar teste e condição de avanço.",
+    "_cenarios": "De zero ao número pertinente de cenários sustentados; nenhuma taxa deve ser inventada para completar cards.",
+    "bases": [
+      {
+        "tipo": "Referência de custo",
+        "estado": "A verificar",
+        "conteudo": "Conferir fonte pertinente por setor, canal e resultado",
+        "origem": "Pendência de pesquisa; não confundir com histórico próprio"
+      },
+      {
+        "tipo": "Histórico próprio",
+        "estado": "A confirmar",
+        "conteudo": "Conferir exportação e janela antes de usar taxas próprias",
+        "origem": "Auditoria e acesso às contas"
+      },
+      {
+        "tipo": "Verba",
+        "estado": "Hipótese a validar",
+        "conteudo": "R$ 3.000 · HIPÓTESE",
+        "origem": "Cenário já apresentado no exemplo; confirmar disponibilidade"
+      },
+      {
+        "tipo": "Cenário e resultado",
+        "estado": "Teste proposto; resultado a medir",
+        "conteudo": "Validar evento, destino e desfecho antes de projetar retorno",
+        "origem": "Condição de avanço do teste"
+      }
+    ]
+  },
+  "tela-06": {
+    "titulo": "Meta Ads: anunciar projeto pronto, não promoção",
+    "amarra": {
+      "pilar": "Mídia paga",
+      "dor": "\"O Instagram traz curioso, não traz projeto\" (sócio, Kickoff)",
+      "para": "duas campanhas que levam ao formulário de orçamento"
+    },
+    "pontos": [
+      "**Impulsionamento de post:** objetivo de engajamento. Implicação: o Meta entrega para quem curte, não para quem compra.",
+      "**Sem público de remarketing:** quem viu a galeria some.",
+      "**Criativo de desconto:** atrai quem procura preço."
+    ],
+    "solucoes": [
+      "Campanha de orçamento com a galeria de projetos entregues."
+    ],
+    "estrutura_titulo": "duas campanhas e o caminho de quem não pede orçamento",
+    "campanhas": [
+      {
+        "titulo": "Orçamento · R$ 2.100",
+        "etapa": "Galeria de projetos",
+        "linhas": [
+          "**Público:** casais de 30 a 45 anos em Curitiba."
+        ]
+      },
+      {
+        "titulo": "Remarketing · R$ 900",
+        "etapa": "Quem viu e não pediu",
+        "linhas": [
+          "**Público:** visitantes da galeria em 30 dias.",
+          "**Criativo:** antes e depois de um ambiente."
+        ]
+      }
+    ],
+    "destino": {
+      "titulo": "Formulário de orçamento",
+      "texto": "Planta do imóvel e ambientes desejados."
+    },
+    "converteu": {
+      "titulo": "Orçamento pedido",
+      "texto": "Entra na planilha com a origem marcada."
+    },
+    "nao_converteu": {
+      "titulo": "Visitante da galeria",
+      "texto": "Entra no remarketing por 30 dias."
+    },
+    "acoes": [
+      {
+        "titulo": "Campanha de orçamento",
+        "texto": "Objetivo de cadastro, otimizada pelo evento de orçamento."
+      },
+      {
+        "titulo": "Campanha de remarketing",
+        "texto": "Público de quem viu a galeria e não enviou o formulário."
+      },
+      {
+        "titulo": "Pausar impulsionamentos",
+        "texto": "Concentrar a verba nas duas campanhas."
+      },
+      {
+        "titulo": "Ler o custo por orçamento",
+        "texto": "Toda semana, na planilha de orçamentos."
+      }
+    ],
+    "fontes": []
+  },
+  "tela-08": {
+    "abertura": "Hoje vamos ver como o Ateliê Rocha aparece para quem busca marcenaria em Curitiba.",
+    "titulo": "Perfil com nota alta e poucas fotos de projeto",
+    "amarra": {
+      "pilar": "CRO (taxa de conversão)",
+      "dor": "\"Quem acha a gente no Google já chega querendo\" (sócio, Kickoff)",
+      "para": "o perfil mostra os ambientes entregues e leva ao orçamento"
+    },
+    "pontos": [
+      "**Poucas fotos:** 12 fotos, nenhuma de projeto entregue. Implicação: o perfil não prova o acabamento.",
+      "**Sem posts:** o último é de 2025."
+    ],
+    "solucoes": [
+      "Subir 20 fotos de ambientes entregues.",
+      "Um post por semana com projeto novo."
+    ],
+    "estrutura_titulo": "as 8 dimensões e o perfil como deve ficar",
+    "dimensoes": [
+      "Categoria principal e secundárias",
+      "Fotos de projetos",
+      "Horários e contato",
+      "Avaliações e respostas",
+      "Posts",
+      "Link do site e do WhatsApp",
+      "Perguntas e respostas",
+      "Atributos: visita técnica, showroom"
+    ],
+    "ideal": [
+      "Categoria \"Marcenaria\" com secundária \"Móveis planejados\"",
+      "Fotos por ambiente: cozinha, dormitório, home office",
+      "Botão de orçamento ativo",
+      "Todas as avaliações respondidas"
+    ],
+    "print": null,
+    "acoes": [
+      {
+        "titulo": "Subir as fotos",
+        "texto": "20 fotos de ambientes entregues, por categoria."
+      }
+    ],
+    "fontes": [
+      {
+        "rotulo": "Fonte:",
+        "texto": "perfil do Google consultado pela V4 em 02/10/2026."
+      }
+    ],
+    "pausa": "Quem pode fotografar os próximos projetos entregues?",
+    "ativos": [
+      {
+        "ativo": "Busca e perfil local",
+        "estado": "Auditoria parcial",
+        "evidencia": "Verificação do perfil apresentada nesta tela",
+        "implicacao": "Conferir informação visível antes de direcionar demanda"
+      },
+      {
+        "ativo": "Site e caminho para orçamento",
+        "estado": "Achados na auditoria da próxima frente",
+        "evidencia": "Site/CRO e teste de destino",
+        "implicacao": "Mensagem, prova e conversão precisam ser coerentes"
+      }
+    ]
+  },
+  "tela-09": {
+    "abertura": "Hoje vamos medir o quanto o site ajuda a pedir orçamento.",
+    "titulo": "Site bonito e lento no celular, sem caminho para o orçamento",
+    "amarra": {
+      "pilar": "CRO (taxa de conversão)",
+      "dor": "\"O site é bonito, mas ninguém pede orçamento por ele\" (sócio, Kickoff)",
+      "para": "o botão de orçamento vai para o topo e a galeria abre rápido no celular"
+    },
+    "desktop": {
+      "nota": 82,
+      "nota_texto": "82",
+      "texto": "Carrega bem no computador."
+    },
+    "celular": {
+      "nota": 31,
+      "nota_texto": "31",
+      "texto": "Fotos pesadas: 7,2 s até a galeria aparecer."
+    },
+    "pontos": [
+      "**Galeria pesada:** fotos sem compressão. Implicação: o visitante sai antes de ver o projeto.",
+      "**Orçamento no rodapé:** o formulário fica no fim da página.",
+      "**Sem preço de referência:** o visitante não sabe se cabe no bolso."
+    ],
+    "solucoes": [
+      "Comprimir as fotos e carregar sob demanda.",
+      "Botão de orçamento fixo no topo."
+    ],
+    "estrutura_titulo": "site atual e site ideal",
+    "print_atual": {
+      "caminho": "semana-3-print-teste.png",
+      "alt": "Print do site atual do Ateliê Rocha (imagem de teste)"
+    },
+    "site": {
+      "url": "atelierocha.com.br",
+      "logo": "ATELIÊ ROCHA",
+      "menu": [
+        "Projetos",
+        "Ambientes",
+        "Contato"
+      ]
+    },
+    "atual": {
+      "topo_titulo": "Bem-vindo ao Ateliê",
+      "topo_texto": "foto de capa, sem chamada",
+      "produtos": [
+        {
+          "nome": "Cozinha",
+          "preco": "sob consulta"
+        },
+        {
+          "nome": "Dormitório",
+          "preco": "sob consulta"
+        },
+        {
+          "nome": "Home office",
+          "preco": "sob consulta"
+        },
+        {
+          "nome": "Sala",
+          "preco": "sob consulta"
+        }
+      ],
+      "legenda": "A galeria abre sem chamada para o orçamento."
+    },
+    "ideal": {
+      "headline": "Móveis planejados para apartamento novo em Curitiba.",
+      "subtitulo": "Projeto 3D em 5 dias úteis.",
+      "botao_principal": "Pedir orçamento",
+      "botao_secundario": "Ver projetos",
+      "prova_rotulo": "Projetos entregues em",
+      "prova": [
+        "Ecoville",
+        "Batel"
+      ],
+      "problemas": [
+        "Prazo de obra",
+        "Espaço pequeno",
+        "Acabamento",
+        "Orçamento fechado"
+      ],
+      "destaques": [
+        {
+          "selo": "Mais pedido",
+          "nome": "Cozinha",
+          "preco": "a partir de R$ 18 mil"
+        }
+      ],
+      "produtos": [
+        {
+          "nome": "Dormitório",
+          "preco": "sob consulta"
+        },
+        {
+          "nome": "Home office",
+          "preco": "sob consulta"
+        }
+      ],
+      "legenda": "O orçamento sobe para o topo, com a cozinha em destaque."
+    },
+    "nota_mockup": "À esquerda, o print do site atual; à direita, o mockup da proposta.",
+    "pausa": "Quanto custa, em média, o projeto de uma cozinha?",
+    "cro": {
+      "explicador": "CRO é corrigir o que impede o visitante de pedir orçamento, sem gastar mais em anúncio.",
+      "lift": "As 6 dimensões do LIFT: **Proposta de Valor**, **Relevância**, **Clareza**, **Ansiedade**, **Distração** e **Urgência**.",
+      "positivos": [
+        {
+          "dimensao": "Clareza",
+          "titulo": "Galeria organizada",
+          "texto": "Os ambientes estão separados por tipo."
+        },
+        {
+          "dimensao": "Ansiedade",
+          "titulo": "Nota 4,8 no Google",
+          "texto": "A prova existe, mas fica fora do site."
+        },
+        {
+          "dimensao": "Relevância",
+          "titulo": "Projetos de Curitiba",
+          "texto": "Os bairros aparecem nas fotos."
+        }
+      ],
+      "melhorias": [
+        {
+          "dimensao": "Proposta de Valor",
+          "titulo": "Sem promessa",
+          "texto": "O topo não diz o que o ateliê resolve."
+        },
+        {
+          "dimensao": "Distração",
+          "titulo": "Música automática",
+          "texto": "Tira o foco da galeria."
+        },
+        {
+          "dimensao": "Urgência",
+          "titulo": "Sem prazo",
+          "texto": "Nada diz quando o projeto fica pronto."
+        }
+      ],
+      "rodapes": []
+    },
+    "acoes": [
+      {
+        "titulo": "Comprimir a galeria",
+        "texto": "Fotos em WebP e carregamento sob demanda."
+      },
+      {
+        "titulo": "Botão fixo de orçamento",
+        "texto": "No topo de todas as páginas."
+      },
+      {
+        "titulo": "Promessa no topo",
+        "texto": "Prazo do projeto 3D e o bairro dos projetos."
+      },
+      {
+        "titulo": "Nota do Google no site",
+        "texto": "Faixa com a nota e duas avaliações."
+      },
+      {
+        "titulo": "Tirar a música automática",
+        "texto": "A galeria abre em silêncio."
+      },
+      {
+        "titulo": "Formulário curto",
+        "texto": "Nome, WhatsApp e ambiente desejado."
+      },
+      {
+        "titulo": "Preço de referência",
+        "texto": "Faixa \"a partir de\" por ambiente."
+      }
+    ]
+  },
+  "tela-10": {
+    "abertura": "Hoje vamos olhar o perfil como o casal que acabou de comprar o apartamento o vê.",
+    "titulo": "Perfil cheio de inspiração e sem pedido de orçamento",
+    "amarra": {
+      "pilar": "Criativos",
+      "dor": "\"O Instagram traz curioso, não traz projeto\" (sócio, Kickoff)",
+      "para": "cada post leva ao formulário de orçamento"
+    },
+    "pontos": [
+      "**Fotos de terceiros:** repostagem de ambientes que não são do ateliê."
+    ],
+    "solucoes": [
+      "Só projetos próprios, com o bairro e o prazo.",
+      "Link direto para o orçamento."
+    ],
+    "estrutura_titulo": "perfil atual e perfil ideal",
+    "print_atual": null,
+    "perfil": {
+      "posts": "212",
+      "seguidores": "4.380",
+      "seguindo": "890"
+    },
+    "atual": {
+      "bio_titulo": "Ateliê Rocha · Marcenaria",
+      "bio_texto": "Móveis sob medida desde 2009.",
+      "link": "wa.me (sem mensagem)",
+      "destaques": [
+        "Inspiração",
+        "Equipe"
+      ],
+      "feed": {
+        "p1": "Inspiração",
+        "p2": "Repost",
+        "p3": "Promo",
+        "p4": "Inspiração",
+        "p5": "Foto solta",
+        "p6": "Repost"
+      },
+      "leitura": [
+        "Feed de inspiração alheia.",
+        "Link sem mensagem pronta."
+      ]
+    },
+    "ideal": {
+      "bio_titulo": "Seu apartamento novo, pronto para morar.",
+      "bio_texto": "Projeto 3D em 5 dias úteis em Curitiba.",
+      "link": "Peça seu orçamento",
+      "destaques": [
+        "Projetos",
+        "Antes e depois",
+        "Prazo",
+        "Avaliações",
+        "Equipe"
+      ],
+      "feed": {
+        "p1": "Cozinha",
+        "p2": "Dica",
+        "p3": "Condição",
+        "p4": "Montagem",
+        "p5": "Dormitório",
+        "p6": "Avaliação"
+      },
+      "leitura": [
+        "Bio com a promessa e o prazo.",
+        "Destaques em funil: projetos, antes e depois, prazo, avaliações e equipe.",
+        "Feed só com projetos do ateliê.",
+        "Link com mensagem pronta para orçamento.",
+        "Reels da montagem."
+      ]
+    },
+    "nota_mockup": "Mockup ilustrativo com os números reais do perfil.",
+    "pausa": "Quais projetos podemos mostrar com o nome do bairro?",
+    "calendario": {
+      "titulo": "a divisão do feed",
+      "rosca": {
+        "f1": 40,
+        "f2": 25,
+        "f3": 20,
+        "f4": 15,
+        "f5": 0,
+        "f6": 0,
+        "centro": "40-25-20-15",
+        "unidade": "DO FEED"
+      },
+      "pilares": [
+        {
+          "pct": "40%",
+          "titulo": "Projetos entregues",
+          "texto": "Ambiente pronto, com bairro e prazo."
+        },
+        {
+          "pct": "25%",
+          "titulo": "Montagem",
+          "texto": "Reels do dia da instalação."
+        },
+        {
+          "pct": "20%",
+          "titulo": "Dúvidas",
+          "texto": "MDF, ferragem e prazo."
+        },
+        {
+          "pct": "15%",
+          "titulo": "Avaliações",
+          "texto": "Cliente mostrando o ambiente."
+        }
+      ]
+    },
+    "acoes": [
+      {
+        "titulo": "Bio e link",
+        "texto": "Promessa, prazo e link com mensagem pronta."
+      },
+      {
+        "titulo": "Destaques em funil",
+        "texto": "Cinco destaques na ordem do funil."
+      }
+    ],
+    "fontes": [
+      {
+        "rotulo": "Fonte:",
+        "texto": "perfil no Instagram consultado pela V4 em 02/10/2026."
+      }
+    ]
+  },
+  "tela-11": {
+    "titulo": "Os formatos que vendem móveis planejados",
+    "amarra": {
+      "pilar": "Criativos",
+      "dor": "\"Já gastei com impulsionamento e não vi retorno\" (sócio, Kickoff)",
+      "para": "três formatos testados na Fase 1, com o projeto do próprio ateliê"
+    },
+    "explicador": "A Biblioteca de Anúncios da Meta mostra os anúncios ativos de qualquer marcenaria e há quanto tempo estão no ar.",
+    "anuncia": {
+      "titulo": "O que já rodou",
+      "itens": [
+        "Impulsionamentos de post com desconto",
+        "Nenhum anúncio com objetivo de cadastro"
+      ]
+    },
+    "nao_anuncia": {
+      "titulo": "O que o nicho veicula",
+      "itens": [
+        "Antes e depois de cozinha",
+        "Reels de montagem",
+        "Prazo do projeto no título",
+        "Condição de pagamento"
+      ]
+    },
+    "carrosseis": [
+      {
+        "print": "semana-3-print-teste.png",
+        "problema": "Cozinha apertada",
+        "solucao": "Cozinha planejada",
+        "rodape": "Antes e depois em Ecoville",
+        "botao": "Orçamento",
+        "titulo": "Antes e depois",
+        "texto": "O ambiente real do cliente, antes e depois."
+      },
+      {
+        "print": null,
+        "problema": "Quarto sem armário",
+        "solucao": "Dormitório pronto",
+        "rodape": "Projeto 3D em 5 dias",
+        "botao": "Orçamento",
+        "titulo": "Antes e depois do dormitório",
+        "texto": "Mesmo formato, outro ambiente."
+      }
+    ],
+    "videos": [
+      {
+        "print": null,
+        "formato": "Reels",
+        "chamada": "Dia da montagem",
+        "rodape": "Do caminhão ao ambiente pronto",
+        "botao": "Assistir",
+        "titulo": "Montagem em 30 segundos",
+        "texto": "Mostra o acabamento e a equipe."
+      }
+    ],
+    "produtos": [],
+    "chamadas": [],
+    "nota_mockup": "O primeiro criativo usa o print real; os demais são proposta.",
+    "acoes": [
+      {
+        "titulo": "Mapear o nicho",
+        "texto": "Buscar marcenarias de Curitiba na Biblioteca."
+      },
+      {
+        "titulo": "Gravar a próxima montagem",
+        "texto": "Reels de 30 segundos."
+      }
+    ],
+    "fontes": [],
+    "pausa": "Qual projeto recente rende o melhor antes e depois?"
+  },
+  "tela-13": {
+    "titulo": "Preparar o primeiro teste com recurso confirmado",
+    "lede": "A seleção traduz os achados em um começo viável. Esforço interno e ferramentas também têm custo.",
+    "acoes": [
+      {
+        "acao": "Evento de orçamento no GTM.",
+        "fundamento": "Ação ligada à trava e aos achados desta semana",
+        "dono": "Sócio; Agência (proposto)",
+        "condicao": "Confirmar acesso, tempo interno e liberação antes de executar"
+      }
+    ],
+    "limite": "Não há promessa de custo zero. Cotação, horas internas e disponibilidade permanecem a confirmar.",
+    "_detalhe_anterior": {
+      "titulo": "Onde o Ateliê Rocha está hoje: 5 de 12",
+      "amarra": {
+        "pilar": "Rastreamento, mídia paga, criativos e CRO",
+        "dor": "\"Não sei se o orçamento veio do anúncio ou da indicação\" (sócio, Kickoff)",
+        "para": "5 de 12: medir o orçamento antes de escalar a verba"
+      },
+      "lede": "Seis dimensões, de 0 a 2, com a evidência desta semana.",
+      "dimensoes": [
+        {
+          "dimensao": "Rastreamento",
+          "nota": "1",
+          "evidencia": "Pixel sem evento de orçamento (Rastreamento)",
+          "para_subir": "Evento de orçamento no Meta e no GA4"
+        },
+        {
+          "dimensao": "Mídia paga",
+          "nota": "0",
+          "evidencia": "Só impulsionamento (Kickoff)",
+          "para_subir": "Campanhas com objetivo de cadastro"
+        },
+        {
+          "dimensao": "Ativo de conversão",
+          "nota": "1",
+          "evidencia": "Site lento no celular (Site e CRO)",
+          "para_subir": "Galeria rápida e orçamento no topo"
+        },
+        {
+          "dimensao": "Conteúdo e presença",
+          "nota": "2",
+          "evidencia": "4.380 seguidores e nota 4,8 no Google",
+          "para_subir": "Manter a cadência"
+        },
+        {
+          "dimensao": "Atendimento",
+          "nota": "1",
+          "evidencia": "WhatsApp do sócio (Kickoff)",
+          "para_subir": "Prazo de resposta definido"
+        }
+      ],
+      "fontes": [
+        {
+          "rotulo": "Fonte:",
+          "texto": "auditoria V4 de 02/10/2026 e Kickoff (01/10/2026)."
+        }
+      ],
+      "define": "Maturidade média: a fundação vem antes da verba nova."
+    }
+  },
+  "tela-14": {
+    "_nota": "De uma a cinco ações; uma única comece_aqui, na primeira posição. Dono proposto até aceite. Desdobramentos por horizonte ficam no detalhe.",
+    "titulo": "O orçamento não é medido: o plano começa pelo evento de orçamento",
+    "trava": "\"O Instagram traz curioso, não traz projeto\" · Kickoff (01/10/2026), minuto 14",
+    "acoes": [
+      {
+        "acao": "Evento de orçamento no GTM.",
+        "dono": "Sócio; Agência (proposto)",
+        "prazo": "Primeira semana, após liberação dos acessos",
+        "comece_aqui": true
+      }
+    ],
+    "pausa": "Esse plano cabe na rotina e resolve a trava?",
+    "gancho": "Com o orçamento medido, a Semana 4 olha o que acontece depois do pedido: tempo de resposta e visita técnica."
+  },
+  "tela-03": {
+    "titulo": "A decisão depende da base medida",
+    "estado": "A verificar: objetivo, período e capacidade precisam de confirmação",
+    "meta": "Meta não declarada nesta amostra; confirmar com o responsável",
+    "base": "Base atual e distância a medir; sem percentual de lacuna calculado",
+    "criterio_avanco": "Registrar objetivo, unidade, período e origem; comparar com a base na mesma unidade antes de definir a distância."
+  },
+  "tela-05": {
+    "titulo": "Cada público precisa de um caminho de conversão",
+    "modo": "Modo do marketing: volume",
+    "frentes": [
+      {
+        "publico": "Público prioritário da Pesquisa de Mercado",
+        "funcao": "Capturar demanda já expressa",
+        "abordagem": "Busca por necessidade; segmentação e termos a conferir",
+        "evento": "Pedido de orçamento qualificado",
+        "destino": "Atendimento com origem registrada",
+        "limite": "Liberar após validar evento e capacidade de resposta"
+      }
+    ],
+    "fundamento": "Recomendação provisória com a pesquisa e a auditoria. Ampliar a abordagem depende de público prioritário, qualidade esperada, economia e capacidade de atendimento.",
+    "_nota": "ABM exige modo conta ou combinado registrado no Direcionamento, com fundamento B2B/contas/qualidade/economia. Esta amostra usa volume."
+  }
+}

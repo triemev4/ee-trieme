@@ -1,0 +1,751 @@
+{
+  "_leia": "Exemplo público inteiramente fictício da Semana 5. Empresa, pessoas, falas, números e evidências são sintéticos para demonstração; não descrevem clientes reais. As imagens de teste também são sintéticas.",
+  "_cliente": "Barro Fino",
+  "titulo_aba": "Planejamento Estratégico + Entregáveis · Barro Fino",
+  "cliente": "Barro Fino",
+  "para_cliente": "Para a Barro Fino",
+  "opcionais": {
+    "tela-05": false
+  },
+  "_opcionais": "Playbook tático é opcional (tela-05); demais frentes condensáveis usam opcionais.tela-NN quando houver motivo. Mapa tem até duas seções com a mesma chave tela-07.",
+  "tela-01": {
+    "ja_vimos": "Na Pesquisa de Mercado vimos o tamanho da cerâmica de mesa vendida online; no Diagnóstico de Marketing, a loja virtual e o Instagram; no Diagnóstico Comercial, o atendimento por mensagem e a recompra.",
+    "hoje": [
+      "Caminho da receita e hipótese de restrição com evidência.",
+      "Horizontes com oito dimensões e Mapa de Ações realizável.",
+      "Conta incremental da receita, riscos, premissas e primeira semana."
+    ],
+    "pausa": "Desde o Diagnóstico Comercial, o que mudou na loja?"
+  },
+  "tela-02": {
+    "consultor": "Consultor",
+    "lede": "Junta as quatro semanas anteriores em uma restrição principal, os Horizontes de Crescimento e um mapa de ações para a loja virtual.",
+    "som": "R$ 1,1 a 1,6 mi/ano",
+    "investimento": "R$ 3.500/mês",
+    "mapa": "H1 a H3"
+  },
+  "tela-03": {
+    "titulo": "Onde a Barro Fino perde pedido hoje",
+    "amarra": {
+      "pilar": "Diagnóstico consolidado",
+      "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+      "para": "o pedido se perde no carrinho, não na falta de visita"
+    },
+    "lede": "O caminho de quem chega à loja virtual até comprar de novo, com o que cada semana encontrou.",
+    "etapas": [
+      {
+        "etapa": "1 · Visita",
+        "status": "Atenção",
+        "trava": 0,
+        "achado": "O Instagram traz visita, mas a loja não sabe de qual post veio cada uma.",
+        "fonte": "Semana 3"
+      },
+      {
+        "etapa": "2 · Carrinho",
+        "status": "Trava",
+        "trava": 1,
+        "achado": "Frete calculado só no fim e sem prazo de produção visível: o carrinho é abandonado.",
+        "fonte": "Semana 3 · teste de compra"
+      },
+      {
+        "etapa": "3 · Pedido",
+        "status": "Atenção",
+        "trava": 0,
+        "achado": "Dúvida sobre peça quebrada no transporte fica sem resposta no fim de semana.",
+        "fonte": "Semana 4"
+      },
+      {
+        "etapa": "4 · Recompra",
+        "status": "Vem depois",
+        "trava": 0,
+        "achado": "Sem lista de clientes por coleção nem aviso de nova fornada.",
+        "fonte": "Semana 4"
+      }
+    ],
+    "fonte_rodape": "**Mercado (Semana 2):** o SAM de ~R$ 180 mi/ano é muito maior que o SOM de R$ 1,1 a 1,6 mi/ano.",
+    "pausa": "Em que etapa vocês sentem que mais perdem pedido?"
+  },
+  "tela-04": {
+    "titulo": "Restrição principal: o marketing da loja",
+    "amarra": {
+      "pilar": "Restrição principal",
+      "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+      "para": "a loja virtual é o elo que limita a venda; o atendimento vem logo depois"
+    },
+    "areas": {
+      "comercial": {
+        "trava": 0,
+        "status": "Vem depois",
+        "texto": "Atendimento por mensagem responde bem nos dias úteis."
+      },
+      "marketing": {
+        "trava": 1,
+        "status": "É a trava",
+        "texto": "Frete e prazo escondidos até o fim da compra."
+      },
+      "gestao": {
+        "trava": 0,
+        "status": "Atenção",
+        "texto": "Uma pessoa cuida da loja, do Instagram e da embalagem."
+      },
+      "financeiro": {
+        "trava": 0,
+        "status": "Sem sinal de trava",
+        "texto": "Margem por peça conhecida e estável."
+      }
+    },
+    "cadeia": {
+      "mercado": {
+        "rotulo": "MERCADO",
+        "valor": "SAM ~R$ 180 mi/ano",
+        "nota": "não é o limite"
+      },
+      "antes": {
+        "rotulo": "VISITA",
+        "valor": "Instagram e busca",
+        "nota": "visita existe"
+      },
+      "restricao": {
+        "valor": "Carrinho",
+        "nota_1": "frete só no fim,",
+        "nota_2": "prazo escondido"
+      },
+      "venda": {
+        "rotulo": "PEDIDO",
+        "valor": "SOM 1,1 a 1,6 mi/ano",
+        "nota": "meta do projeto"
+      }
+    },
+    "explicador": "Uma loja funciona como uma corrente: a venda nunca passa do elo mais fraco, e só melhorar esse elo aumenta o pedido.",
+    "pausa": "Vocês concordam que o pedido se perde mais no carrinho do que na falta de visita?",
+    "estado": "Hipótese de trabalho sustentada pelos achados das semanas anteriores; confirmar ou revisar com o teste decisivo, sem confirmação por calendário."
+  },
+  "tela-05": {
+    "amarra": {
+      "pilar": "Plano de ação",
+      "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+      "para": "as soluções das Semanas 3 e 4 por frente, sem ação nova"
+    },
+    "lede": "Um compilado dos planos de ação das Semanas 3 e 4. Nenhuma ação nova.",
+    "frentes": [
+      {
+        "tag": "Loja virtual · Semana 3",
+        "titulo": "Nenhuma surpresa no fim da compra",
+        "itens": [
+          "Frete na página do produto.",
+          "Prazo de produção ao lado do preço.",
+          "Medida em toda foto.",
+          "Aviso de carrinho abandonado.",
+          "Política de troca visível."
+        ]
+      },
+      {
+        "tag": "Atendimento · Semana 4",
+        "titulo": "Resposta também no fim de semana",
+        "itens": [
+          "Respostas prontas para frete, prazo e quebra."
+        ]
+      },
+      {
+        "tag": "Recompra · Semana 4",
+        "titulo": "Aviso de nova fornada",
+        "itens": [
+          "Lista de clientes por coleção.",
+          "Mensagem no dia da fornada."
+        ]
+      }
+    ],
+    "pausa": "Alguma dessas frentes já existe e não foi mapeada?"
+  },
+  "tela-06": {
+    "amarra": {
+      "pilar": "Plano de ação",
+      "dor": "\"Tem semana que vende uma peça só\" (sócia, Kickoff)",
+      "para": "carrinho primeiro, mídia na segunda fase, recompra na terceira"
+    },
+    "lede": "Os prazos dos Horizontes H1, H2 e H3 confirmados no Diagnóstico Comercial.",
+    "marcos": {
+      "h1": 5,
+      "h2": 40,
+      "h3": 97
+    },
+    "prazos": {
+      "h1": "0 a 30 dias",
+      "h2": "30 a 180 dias",
+      "h3": "6 a 12 meses"
+    },
+    "pausa": "A loja consegue mexer no carrinho já no H1?",
+    "_fundamento_horizontes": {
+      "h1": {
+        "texto": "Carrinho com frete, prazo e troca visíveis; rastreamento de compra ligado.",
+        "meta": "Meta: menos carrinho abandonado."
+      },
+      "h2": {
+        "texto": "Meta e Shopping ligados com dado de compra real.",
+        "meta": "Leitura: custo por pedido por canal."
+      },
+      "h3": {
+        "texto": "Recompra por coleção e lista de espera da fornada.",
+        "meta": "Meta: mais pedidos por cliente no ano."
+      }
+    },
+    "matriz": [
+      {
+        "dimensao": "Desenho do CRM",
+        "h1": "Confirmar requisitos, dono e primeiro teste",
+        "h2": "Acompanhar uso, registros e resultado comparável",
+        "h3": "Revisar capacidade e integração ao crescer",
+        "origem": "Semana 4 · entra em H1"
+      },
+      {
+        "dimensao": "Estrutura de campanhas",
+        "h1": "Preparar evento e destino; confirmar recurso e capacidade",
+        "h2": "Executar teste autorizado e comparar resultado final",
+        "h3": "Ampliar apenas o canal sustentado por resultado e capacidade",
+        "origem": "Semana 3 · liga em H2"
+      },
+      {
+        "dimensao": "Rastreamento",
+        "h1": "Validar eventos e origem antes da verba",
+        "h2": "Conferir integridade e leitura do resultado",
+        "h3": "Manter rastreabilidade ao ampliar canais",
+        "origem": "Semana 3 · entra em H1"
+      },
+      {
+        "dimensao": "Critérios de qualificação",
+        "h1": "Aprovar critérios e testar a passagem em conversas reais",
+        "h2": "Recalibrar com perdas e vendas observadas",
+        "h3": "Revisar quando o público ou o processo mudar",
+        "origem": "Semana 4 · entra em H2"
+      },
+      {
+        "dimensao": "Draw flow das campanhas",
+        "h1": "Preparar evento e destino; confirmar recurso e capacidade",
+        "h2": "Executar teste autorizado e comparar resultado final",
+        "h3": "Ampliar apenas o canal sustentado por resultado e capacidade",
+        "origem": "Semana 3 · entra em H2"
+      },
+      {
+        "dimensao": "TAM, SAM e SOM básicos",
+        "h1": "Conferir recorte, unidade e fonte já levantados",
+        "h2": "Revisar somente se mercado ou recorte mudar",
+        "h3": "Revisar no marco ou diante de evidência nova",
+        "origem": "Semana 2 · base de toda meta"
+      },
+      {
+        "dimensao": "Estrutura ideal do time",
+        "h1": "Definir dono e medir carga; contratar se a necessidade exigir",
+        "h2": "Rever capacidade, competência e disponibilidade com a medição",
+        "h3": "Revisar a estrutura conforme o novo gargalo",
+        "origem": "Semana 4 · entra em H2"
+      },
+      {
+        "dimensao": "Calendário do cliente",
+        "h1": "Conferir evento crítico, sazonalidade, ciclo de compra e prazos já conhecidos",
+        "h2": "Sequenciar testes e recursos pelas janelas de compra confirmadas",
+        "h3": "Rever os marcos se o ciclo, a sazonalidade ou o evento do cliente mudar",
+        "origem": "Ficha e cliente · datas e compromissos a confirmar"
+      }
+    ],
+    "_detalhe_dimensoes": [
+      {
+        "nome": "Desenho do CRM",
+        "texto": "Base de clientes com segmentos por coleção e eventos da loja.",
+        "origem": "Semana 4 · entra em H1"
+      },
+      {
+        "nome": "Estrutura de campanhas",
+        "texto": "Meta e Shopping, com catálogo da loja.",
+        "origem": "Semana 3 · liga em H2"
+      },
+      {
+        "nome": "Rastreamento",
+        "texto": "Eventos de compra: carrinho, início de pagamento e pedido.",
+        "origem": "Semana 3 · entra em H1"
+      },
+      {
+        "nome": "Critérios de qualificação",
+        "texto": "Segmentos RFM e gatilhos de régua.",
+        "origem": "Semana 4 · entra em H2"
+      },
+      {
+        "nome": "Draw flow das campanhas",
+        "texto": "Do anúncio ao pedido e à recompra.",
+        "origem": "Semana 3 · entra em H2"
+      },
+      {
+        "nome": "TAM, SAM e SOM básicos",
+        "texto": "Com a fonte de cada número.",
+        "origem": "Semana 2 · base de toda meta"
+      },
+      {
+        "nome": "Estrutura ideal do time",
+        "texto": "Operação da loja: atendimento, embalagem e conteúdo.",
+        "origem": "Semana 4 · entra em H2"
+      },
+      {
+        "nome": "Política de troca por quebra",
+        "texto": "Regra escrita e visível na página do produto.",
+        "origem": "Semana 4 · entra em H1"
+      }
+    ]
+  },
+  "tela-07": {
+    "barra": {
+      "bloco_1": "H1 · 0 a 30 dias · Fundação",
+      "bloco_2": "H2 e H3 · 30 dias a 12 meses"
+    },
+    "bloco_1": {
+      "amarra": {
+        "pilar": "Plano de ação",
+        "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+        "para": "o que a loja faz nos primeiros 30 dias, com dono em cada ação"
+      },
+      "vendas": {
+        "comece_aqui": [],
+        "acoes": [
+          {
+            "titulo": "Respostas prontas",
+            "itens": [
+              "Frete, prazo e quebra.",
+              "Resposta no sábado."
+            ],
+            "dono": "Atendimento (Lia)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 4"
+          },
+          {
+            "titulo": "Política de troca",
+            "itens": [
+              "Regra escrita e aprovada pela sócia."
+            ],
+            "dono": "Sócia (Rute)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 4"
+          }
+        ]
+      },
+      "marketing": {
+        "comece_aqui": [
+          {
+            "titulo": "Frete e prazo na página do produto",
+            "itens": [
+              "Calculadora de frete na página.",
+              "Prazo de produção ao lado do preço."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 3"
+          }
+        ],
+        "acoes": []
+      },
+      "pausa": "Quem libera o acesso à loja virtual esta semana?"
+    },
+    "bloco_2": {
+      "amarra": {
+        "pilar": "Plano de ação",
+        "dor": "\"Tem semana que vende uma peça só\" (sócia, Kickoff)",
+        "para": "a mídia liga com dado de compra e a recompra vira rotina"
+      },
+      "vendas": {
+        "comece_aqui": [],
+        "acoes": [
+          {
+            "titulo": "Aviso de nova fornada",
+            "itens": [
+              "Mensagem no dia da fornada para a lista da coleção."
+            ],
+            "dono": "Atendimento (Lia)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 4"
+          },
+          {
+            "titulo": "Segmentos RFM",
+            "itens": [
+              "Clientes ativos, parados e de alto valor."
+            ],
+            "dono": "Sócia (Rute)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 4"
+          }
+        ]
+      },
+      "marketing": {
+        "comece_aqui": [],
+        "acoes": [
+          {
+            "titulo": "Meta com catálogo",
+            "itens": [
+              "Só depois do rastreamento de compra validado."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Shopping",
+            "itens": [
+              "Peças de entrada da coleção."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Conteúdo de bastidor",
+            "itens": [
+              "Vídeo da fornada toda semana."
+            ],
+            "dono": "Conteúdo (Bia)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Leitura de resultado",
+            "itens": [
+              "Custo por pedido por canal, toda semana."
+            ],
+            "dono": "Sócia (Rute)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 3"
+          }
+        ]
+      },
+      "pausa": "Quem acompanha a leitura semanal de resultado?"
+    },
+    "_fundamento_toc": "Classificar cada ação no fundamento: explorar, subordinar, elevar ou revisar. A etiqueta não precisa aparecer no card; não transforma hipótese em dado.",
+    "_desdobramentos_h1": {
+      "amarra": {
+        "pilar": "Plano de ação",
+        "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+        "para": "o que a loja faz nos primeiros 30 dias, com dono em cada ação"
+      },
+      "vendas": {
+        "comece_aqui": [],
+        "acoes": [
+          {
+            "titulo": "Respostas prontas",
+            "itens": [
+              "Frete, prazo e quebra.",
+              "Resposta no sábado."
+            ],
+            "dono": "Atendimento (Lia)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 4"
+          },
+          {
+            "titulo": "Política de troca",
+            "itens": [
+              "Regra escrita e aprovada pela sócia."
+            ],
+            "dono": "Sócia (Rute)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 4"
+          },
+          {
+            "titulo": "Lista por coleção",
+            "itens": [
+              "Separar os clientes por coleção comprada.",
+              "Pedir permissão para avisar a fornada.",
+              "Testar com a coleção Terracota."
+            ],
+            "dono": "Atendimento (Lia)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 4"
+          }
+        ]
+      },
+      "marketing": {
+        "comece_aqui": [
+          {
+            "titulo": "Frete e prazo na página do produto",
+            "itens": [
+              "Calculadora de frete na página.",
+              "Prazo de produção ao lado do preço."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 3"
+          }
+        ],
+        "acoes": [
+          {
+            "titulo": "Rastreamento de compra",
+            "itens": [
+              "Eventos de carrinho, pagamento e pedido."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Estrutural",
+            "quick_win": 0,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Carrinho abandonado",
+            "itens": [
+              "Aviso por e-mail em 2 horas."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Medida nas fotos",
+            "itens": [
+              "Régua em toda foto de peça."
+            ],
+            "dono": "Conteúdo (Bia)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Troca visível",
+            "itens": [
+              "Selo de troca por quebra na página."
+            ],
+            "dono": "Loja virtual (Caio)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 3"
+          },
+          {
+            "titulo": "Instagram com link de produto",
+            "itens": [
+              "Link direto da peça em cada post."
+            ],
+            "dono": "Conteúdo (Bia)",
+            "tipo": "Quick win",
+            "quick_win": 1,
+            "origem": "vem da Semana 3"
+          }
+        ]
+      },
+      "pausa": "Quem libera o acesso à loja virtual esta semana?"
+    }
+  },
+  "tela-08": {
+    "_nota": "Incremento sobre a base, sem duplicar receita recorrente nem somar alavancas sobre a mesma venda. Unidade/período, margem/contribuição e tempo preservam a incerteza. Uma alavanca pertinente ou lacuna explícita, sem mínimo artificial.",
+    "titulo": "A conta depende de base, margem e tempo comparáveis",
+    "base": "Base e meta precisam ser comparadas na mesma unidade e período; não há incremento numérico demonstrado nesta amostra.",
+    "alavancas": [],
+    "lacuna": "Faltam base comparável, margem, ciclo e efeito isolado. Medir a primeira alavanca antes de projetar retorno ou ampliar o investimento.",
+    "_recursos_anteriores": {
+      "amarra": {
+        "pilar": "Plano de mídia",
+        "dor": "\"Tem semana que vende uma peça só\" (sócia, Kickoff)",
+        "para": "R$ 3.500/mês de mídia, ligados só depois do carrinho corrigido"
+      },
+      "linhas": [
+        {
+          "item": "Mídia (Meta + Shopping)",
+          "quando": "A partir de 30 dias",
+          "valor": "R$ 3.500/mês"
+        },
+        {
+          "item": "Calculadora de frete",
+          "quando": "0 a 30 dias",
+          "valor": "A cotar"
+        },
+        {
+          "item": "Aviso de carrinho abandonado",
+          "quando": "0 a 30 dias",
+          "valor": "Incluso na plataforma da loja"
+        },
+        {
+          "item": "Rastreamento de compra",
+          "quando": "0 a 30 dias",
+          "valor": "Sem custo direto"
+        },
+        {
+          "item": "SOM · Mercado Alcançável",
+          "quando": "2026",
+          "valor": "R$ 1,1 a 1,6 mi/ano"
+        }
+      ],
+      "leitura": "A divisão da verba é a do Diagnóstico de Marketing (Semana 3). A meta é referência de leitura, não promessa de receita.",
+      "grafico": {
+        "maior_valor": 2000,
+        "barras": [
+          {
+            "valor": 2000,
+            "rotulo_valor": "R$2.000",
+            "canal": "META · CATÁLOGO"
+          },
+          {
+            "valor": 1000,
+            "rotulo_valor": "R$1.000",
+            "canal": "SHOPPING"
+          },
+          {
+            "valor": 500,
+            "rotulo_valor": "R$500",
+            "canal": "META · REMKT."
+          }
+        ]
+      },
+      "fonte_rodape": "**Fonte:** SOM é estimativa V4 com a capacidade de produção declarada pela sócia (Kickoff); não é dado de mercado externo.",
+      "pausa": "A verba de R$ 3.500/mês cabe por 3 meses?"
+    }
+  },
+  "tela-09": {
+    "titulo": "Validar os limites que podem mudar a execução",
+    "riscos": [],
+    "premissas": [
+      {
+        "premissa": "O responsável proposto tem tempo e acesso para o primeiro teste",
+        "validacao": "Confirmar aceite, acesso e janela de execução antes de começar",
+        "dono": "Responsável do Mapa, ainda proposto",
+        "prazo": "Antes de executar a primeira ação"
+      }
+    ]
+  },
+  "tela-10": {
+    "amarra": {
+      "pilar": "Entregáveis",
+      "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+      "para": "o que já está pronto para a Fundação e o que falta"
+    },
+    "prontos": [
+      {
+        "nome": "Manual de Copy",
+        "texto": "PUV, três mensagens por público e as frases para a página do produto.",
+        "print": {
+          "caminho": "semana-5-print-teste.png",
+          "alt": "Print da página do produto com a nova copy"
+        }
+      }
+    ],
+    "outros": [
+      {
+        "status": "Em produção · entrega na Fundação",
+        "nome": "4 criativos para anúncios",
+        "texto": "Peças em 1080×1080 e 1080×1920, cada uma com um ângulo."
+      },
+      {
+        "status": "Em produção · entrega na Fundação",
+        "nome": "Landing Page em wireframe",
+        "texto": "Página da coleção Terracota com formulário curto."
+      },
+      {
+        "status": "Pendente · fotos da coleção",
+        "nome": "Manual de Identidade Visual",
+        "texto": "Registro da identidade que a loja já usa."
+      }
+    ],
+    "lede": "O Manual de Copy está pronto: um clique abre. Os outros entram na Fundação."
+  },
+  "tela-11": {
+    "_nota": "Tese específica e proporcional à evidência. Lista da primeira semana tem só ações pertinentes, até cinco, com uma primeira ação. Rever o gargalo no marco ou antes se mudar; nenhuma fórmula fixa de exclusão.",
+    "titulo": "O carrinho esconde o frete, e a primeira ação já tem dono",
+    "comece_aqui": "Frete e prazo na página do produto, com a Loja virtual (Caio), nos primeiros 30 dias.",
+    "primeira_semana": [
+      {
+        "acao": "Calculadora de frete na página.",
+        "dono": "Loja virtual (Caio)",
+        "prazo": "Data proposta: D+1 após validar aceite, recursos e dependências"
+      }
+    ],
+    "proxima_restricao": "Revisar a hipótese no marco do primeiro teste, ou antes se a fila, capacidade ou evidência indicar outro gargalo; registrar a decisão e o próximo teste.",
+    "pausa": "Isso faz sentido para a loja?",
+    "gancho": "Iniciar a Fundação (0 a 30 dias) pelo frete e prazo na página do produto."
+  },
+  "_fundamento_restricao": {
+    "arvore": {
+      "titulo": "Os três efeitos que a Barro Fino sente têm a mesma causa",
+      "amarra": {
+        "pilar": "Restrição principal",
+        "dor": "\"Tem semana que vende uma peça só\" (sócia, Kickoff)",
+        "para": "três efeitos e uma causa: o carrinho esconde frete e prazo"
+      },
+      "rotulo_efeitos": "O que a Barro Fino sente",
+      "efeitos": [
+        {
+          "texto": "Semanas com uma venda só.",
+          "fonte": "Kickoff"
+        },
+        {
+          "texto": "Carrinho abandonado.",
+          "fonte": "Semana 3"
+        },
+        {
+          "texto": "Mensagem perguntando o frete antes de comprar.",
+          "fonte": "Semana 4"
+        }
+      ],
+      "causas": [
+        {
+          "texto": "Frete calculado só na última etapa.",
+          "fonte": "Semana 3"
+        },
+        {
+          "texto": "Prazo de produção fora da página do produto.",
+          "fonte": "Semana 3"
+        },
+        {
+          "texto": "Sem aviso de carrinho abandonado.",
+          "fonte": "Semana 3"
+        },
+        {
+          "texto": "Política de troca por quebra difícil de achar.",
+          "fonte": "Semana 4"
+        },
+        {
+          "texto": "Fotos sem medida da peça.",
+          "fonte": "Semana 3 · teste de compra"
+        }
+      ],
+      "causa_comum": {
+        "area": "Marketing da loja",
+        "texto": "A loja virtual esconde o que o cliente precisa para decidir: frete, prazo, medida e troca."
+      },
+      "fonte_rodape": "**Descartados como restrição:** mercado (Semana 2) e comercial (Semana 4: o atendimento responde rápido nos dias úteis).",
+      "explicador": "Parte dos efeitos, desce às causas e chega na causa comum que explica a maior parte deles.",
+      "pausa": "Algum desses efeitos não acontece, ou falta algum?"
+    },
+    "dilema": null,
+    "passos": {
+      "titulo": "Primeiro o carrinho, depois a mídia.",
+      "amarra": {
+        "pilar": "Plano de ação",
+        "dor": "\"O carrinho enche e o pedido não sai\" (sócia, Diagnóstico Comercial)",
+        "para": "a mídia nova espera o carrinho mostrar frete e prazo"
+      },
+      "identificar": {
+        "titulo": "Carrinho que esconde",
+        "texto": "Frete e prazo só no fim (Semana 3)."
+      },
+      "explorar": {
+        "titulo": "Usar o que já existe",
+        "texto": "A tabela de frete e o prazo de cada fornada."
+      },
+      "subordinar": {
+        "titulo": "A mídia espera",
+        "texto": "Nenhum real novo em anúncio antes do carrinho corrigido."
+      },
+      "elevar": {
+        "titulo": "Mais capacidade",
+        "texto": "Aviso de carrinho abandonado e atendimento no fim de semana."
+      },
+      "repetir": {
+        "titulo": "Próximo gargalo",
+        "texto": "Com o carrinho fluindo, o limite tende a migrar para a produção."
+      },
+      "pausa": "Quem na loja consegue mudar a página do produto esta semana?"
+    }
+  }
+}

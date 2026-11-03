@@ -1,0 +1,195 @@
+{
+  "cliente": "PREENCHER: nome do cliente",
+  "slug": "PREENCHER-slug-do-cliente-em-minusculas-sem-acento",
+  "rodape": "{consultor} · PREENCHER: e-mail e telefone do consultor · Próximo encontro: Pesquisa de Mercado (Semana 2)",
+  "hero_lede": "Reunião de abertura da Estruturação Estratégica. Hoje você fala e a gente escuta: confirmamos o que já sabemos, levantamos as dores reais, os dados de marketing, comerciais e as metas, e alinhamos o cronograma das 5 semanas.",
+  "hero_meta": [
+    ["Fundação", "PREENCHER: ano ou tempo de mercado, só se dito na venda; sem fato, apague este par"],
+    ["Sede", "PREENCHER: cidade e UF, só se dito na venda; sem fato, apague este par"],
+    ["Setor", "PREENCHER: setor, só se dito na venda; sem fato, apague este par"]
+  ],
+  "oque_lede": "O Kickoff é a reunião base: ele precisa sair com tudo respondido para as próximas semanas. Por isso hoje eu pergunto mais do que apresento. Para começar: PREENCHER: pergunta de foco de mercado e um nível, na língua do cliente (quem compra hoje e quem deve comprar nos próximos 12 meses, e em que nível, como município, estado ou região).",
+  "semanas_grid": [
+    ["Semana 1 · Kickoff", "Escuta e levantamento de tudo o que as próximas semanas precisam."],
+    ["Semana 2 · Pesquisa de Mercado", "Tamanho do mercado, concorrentes, público e proposta de valor."],
+    ["Semana 3 · Diagnóstico de Marketing", "Rastreamento, Google Meu Negócio, site, redes e mídia paga."],
+    ["Semana 4 · Diagnóstico Comercial", "Atendimento, funil de vendas e desenho do CRM (sistema de relacionamento com o cliente)."],
+    ["Semana 5 · Planejamento Estratégico + Entregáveis", "Plano único com prazos, investimento e entregáveis."]
+  ],
+  "roteiro": [
+    ["Problemas reais e dores", "15 min"],
+    ["O que já mapeamos", "5 min"],
+    ["Perguntas de marketing", "10 min"],
+    ["Perguntas comerciais", "20 min"],
+    ["Metas financeiras", "15 min"],
+    ["Concorrentes, público e design", "10 min"],
+    ["Fechamento e próximos passos", "15 min"]
+  ],
+  "dores": {
+    "quads": [
+      ["O que trava", ["PREENCHER: 1 pergunta aberta, mais funda do que o que já veio da venda"]],
+      ["O que já foi tentado", ["PREENCHER: 1 pergunta aberta sobre o que já foi feito e o que funcionou ou não"]],
+      ["O que não aparece", ["PREENCHER: 1 pergunta aberta sobre o que ainda não foi dito"]],
+      ["O que precisa mudar", ["Ao final destes 30 dias, o que precisa estar nas suas mãos para você dizer que valeu?"]]
+    ],
+    "gancho": "Cada dor citada aqui será retomada no encontro certo: marketing, comercial ou planejamento, no momento em que fizer sentido resolvê-la.",
+    "pausa": "Estamos anotando tudo com atenção. Pode falar à vontade."
+  },
+  "mapeado": {
+    "abertura": "Já reunimos o que foi conversado na venda e, quando aconteceu, na Growth Class. Vamos passar pelo que sabemos; você pode corrigir ou atualizar o que mudou.",
+    "fields": [
+      ["HI", "Histórico", "PREENCHER: valor curto", "PREENCHER: 1 a 2 linhas, só fato dito pelo cliente; sem fato, apague o campo"],
+      ["AT", "Momento atual", "PREENCHER: valor curto", "PREENCHER: 1 a 2 linhas, só fato dito pelo cliente; sem fato, apague o campo"],
+      ["EC", "Estrutura comercial", "PREENCHER: valor curto", "PREENCHER: 1 a 2 linhas, só fato dito pelo cliente; sem fato, apague o campo"],
+      ["MR", "Mix de receita", "PREENCHER: valor curto", "PREENCHER: 1 a 2 linhas, só fato dito pelo cliente; sem fato, apague o campo"],
+      ["CA", "Canais já usados", "PREENCHER: valor curto", "PREENCHER: 1 a 2 linhas, só fato dito pelo cliente; sem fato, apague o campo"],
+      ["ES", "Estratégias validadas", "PREENCHER: valor curto", "PREENCHER: 1 a 2 linhas, só fato dito pelo cliente; sem fato, apague o campo"]
+    ],
+    "pausa": "Algum destes dados está desatualizado ou faltando?"
+  },
+  "marketing": {
+    "abertura": "Agora, o seu marketing. Para desenhar anúncios, site, Instagram e criativos que funcionem com PREENCHER: quem compra do cliente, precisamos de alguns insumos seus.",
+    "quads": [
+      [
+        "Anúncios e rastreamento",
+        ["Quando alguém se interessa pela empresa, qual é o próximo passo que você quer que ele dê: PREENCHER: 2 ou 3 exemplos do negócio?"],
+        "definir o que medir e o objetivo de cada anúncio."
+      ],
+      [
+        "Site, Google e Instagram",
+        ["Depois do primeiro contato, onde o cliente busca mais sobre vocês, e PREENCHER: ativos confirmados no card de ativos digitais ajudam a vender hoje? Quem atualiza e com que frequência?"],
+        "decidir que canal priorizar e o que corrigir primeiro."
+      ],
+      [
+        "Criativos e landing page",
+        [
+          "O que você pode oferecer para alguém começar: PREENCHER: teste, demonstração, condição de entrada?",
+          "Que resultados você já consegue mostrar? PREENCHER: em setor regulado, acrescente \"e o que pode ser divulgado\"; fora dele, apague esta instrução"
+        ],
+        "construir a chamada e o argumento dos anúncios."
+      ],
+      [
+        "Mensagem e autoridade",
+        ["Quando apresenta o produto, o que convence e o que não convence, e que parte da sua história ou do seu diferencial ainda não aparece na marca?"],
+        "a proposta de valor, o Manual de Copy e o conteúdo."
+      ]
+    ],
+    "gancho": "Com essas respostas, a Semana 3 desenha os anúncios, o rastreamento, o site, o Google, o Instagram e os criativos da empresa.",
+    "pausa": "Se tiver resultados ou materiais à mão, pode nos enviar depois da reunião."
+  },
+  "comerciais": {
+    "abertura": "PREENCHER: uma frase que situa este bloco na língua do cliente. Em E-commerce e PDV, troque também os quadros abaixo pelos do formato (padrao/formatos-de-negocio.md).",
+    "quads": [
+      [
+        "Como a venda acontece",
+        ["Do primeiro contato ao pedido fechado, como a venda acontece: quem decide e quem influencia em cada etapa, quanto tempo leva e quando o cliente costuma ter orçamento?"]
+      ],
+      [
+        "Objeções e qualificação",
+        [
+          "Que objeções você mais ouve, e como responde a cada uma hoje?",
+          "Quando você considera que um contato virou uma oportunidade real?"
+        ]
+      ],
+      [
+        "Contatos e acompanhamento",
+        [
+          "Quantos contatos chegam por mês e de onde vêm, quanto tempo leva até o primeiro retorno e o que acontece com quem chega fora do horário?",
+          "Quais negociações estão abertas hoje, em que estágio, quantas fecharam no último período e onde você acompanha cada uma?"
+        ]
+      ],
+      [
+        "Modelo de receita e entrega",
+        [
+          "Como você cobra (taxa única, recorrência, por unidade), qual o preço de cada unidade e como o produto é entregue a cada cliente?",
+          "Quem, além de você, participa da venda e da entrega, e o que cada um faz?"
+        ]
+      ],
+      [
+        "Pós-venda e expansão",
+        ["Depois do contrato, quem acompanha o cliente, e o que faz um cliente renovar ou comprar mais?"]
+      ]
+    ],
+    "gancho": "Etapas, decisores, objeções e acompanhamento viram a base do Diagnóstico Comercial da Semana 4.",
+    "pausa": "Se tiver uma lista das negociações abertas, ela vira o ponto de partida do funil."
+  },
+  "metas": {
+    "abertura": "PREENCHER: uma frase que situa este bloco na língua do cliente (meta, verba e prazo definem o tamanho do plano).",
+    "quads": [
+      ["Hoje", ["Quanto a empresa fatura por mês hoje, e quanto faturou nos últimos 12 meses? Se não houver histórico, o que existe?"]],
+      ["Em 12 meses", ["Onde você quer estar em 12 meses: quanto, em quais regiões e com qual produto? Você prefere mais clientes ou menos clientes, maiores?"]],
+      [
+        "Investimento",
+        [
+          "Quanto já investiu em mídia e qual valor mínimo e máximo cabe investir por mês agora? Se nunca investiu ou ainda não tem teto, pode responder ‘nunca investi’ ou ‘sem teto’.",
+          "Quem vai tocar o plano depois dos 30 dias, e o que acontece com as vendas se você se ausentar por 15 dias?"
+        ]
+      ],
+      [
+        "Prazo",
+        [
+          "Em quanto tempo você precisa ver retorno, e existe alguma data ou compromisso nos próximos 90 dias que dependa disso?",
+          "Existe época do ano ou evento que acelera ou trava a venda?"
+        ]
+      ]
+    ],
+    "gancho": "Meta e mercado de entrada dimensionam a Pesquisa de Mercado da Semana 2, a verba dimensiona a projeção de investimento da Semana 3 e o prazo ordena o plano da Semana 5.",
+    "pausa": "Se algum número não estiver fechado agora, combinamos a data em que você nos envia."
+  },
+  "design": {
+    "concorrentes": [
+      "Quem mais disputa esse espaço, o que o seu cliente usa hoje no lugar do seu produto e que argumento esse concorrente usa contra vocês?",
+      "Que marca você admira pela forma de se comunicar, e com qual não gostaria de ser confundido?"
+    ],
+    "publico": [
+      ["", ["Idade", "Sexo", "Perfil geral", "Peculiaridades", "Classe social", "Budget", "Desejos", "Medos"]]
+    ],
+    "design": [
+      "A marca e o domínio estão registrados em nome da empresa, e o que da identidade atual você quer manter ou evitar?"
+    ],
+    "design_conf": "Já confirmado: PREENCHER: só fato dito na venda sobre ativos de marca; sem fato, apague esta linha.",
+    "receber": [
+      "Como prefere receber as entregas (mais visual, direto ou detalhado), e qual o melhor dia e horário para nossos encontros?"
+    ],
+    "gancho": "Concorrentes e público são confirmados com dado na Semana 2; o estilo de entrega ajusta como apresento as próximas semanas.",
+    "pausa": "Um exemplo concreto de cliente ideal ajuda muito: quem seria?"
+  },
+  "fechamento": {
+    "lede": "Hoje confirmamos o essencial: PREENCHER: só fatos confirmados na reunião. As dores que você trouxe apontam, como hipótese, para PREENCHER: trava suspeita, em aberto. Vamos confirmar isso com dado real ao longo das próximas 4 semanas, sem adiantar conclusão agora.",
+    "validacao": "Esse resumo bate com o que você vive hoje? Ficou algo de fora?",
+    "gancho": "Pesquisa de Mercado (Semana 2): PREENCHER: spoiler curto do que a Semana 2 vai mostrar."
+  },
+  "cronograma": [
+    ["Estamos aqui · Semana 1", "Kickoff", "Escuta e levantamento de dados."],
+    ["Semana 2", "Pesquisa de Mercado", "Tamanho do mercado (total, atendível e alcançável), concorrentes, público-alvo e proposta única de valor."],
+    ["Semana 3", "Diagnóstico de Marketing", "Rastreamento, mídia paga, Google Meu Negócio, site (CRO: taxa de conversão), Instagram e criativos."],
+    ["Semana 4", "Diagnóstico Comercial", "Estrutura do time, funil de vendas, rotinas, ferramentas e o plano por horizonte (H1, H2 e H3)."],
+    ["Semana 5", "Planejamento Estratégico + Entregáveis", "Plano único com prazos e investimento, mais os entregáveis contratados."]
+  ],
+  "prosa": {
+    "oque": [
+      "O Kickoff é a reunião base da Estruturação Estratégica. Ele abre o projeto e precisa sair com as respostas que as próximas semanas usam.",
+      "A Estruturação segue cinco encontros: Kickoff, Pesquisa de Mercado, Diagnóstico de Marketing, Diagnóstico Comercial e Planejamento Estratégico + Entregáveis."
+    ],
+    "roteiro": "Cada bloco do roteiro abre com uma pergunta direta e fecha com um resumo do que foi ouvido e para onde isso vai no projeto. Estimativa total: 1h30.",
+    "dores": [
+      "O bloco abre a reunião para ouvir primeiro. O quarto quadro registra, nas palavras do cliente, o que precisa mudar para o projeto ter valido."
+    ],
+    "mapeado": [
+      "Os campos reúnem o que já chegou da venda. Servem de ponto de partida, sem virar diagnóstico."
+    ],
+    "marketing": [
+      "O bloco segue as frentes da Semana 3. O próximo passo define rastreamento e campanhas; onde o cliente busca informação orienta Google, site e Instagram; resultados e oferta sustentam os criativos; mensagem e autoridade orientam o conteúdo."
+    ],
+    "comerciais": [
+      "O bloco levanta o que o Diagnóstico Comercial da Semana 4 precisa: etapas da venda, decisores, objeções, acompanhamento, modelo de receita e pós-venda."
+    ],
+    "metas": [
+      "Meta, verba e prazo definem o tamanho do plano. Número ainda não fechado vira pendência com data."
+    ],
+    "design": [
+      "Concorrentes e público são ponto de partida, confirmados com dado na Semana 2."
+    ],
+    "fechamento": "Ao final desta primeira reunião, o que temos não é um diagnóstico, é uma base confirmada."
+  }
+}

@@ -1,0 +1,670 @@
+{
+ "_leia": "Modelo S2 esquema 2. Preencher a espinha pelo mercado do cliente, preservando fontes e inferências. meta_declarada deve refletir a ficha; se true, a tela 02 exige leitura_meta. tipo_comprador: B2B, B2G ou B2C. Há tantos grupos e concorrentes quanto a evidência sustenta, sem preencher vagas. Substituto só quando real; TOWS no detalhe. Padrão novo usa proximos_passos; plano por horizonte é apenas compatibilidade. Campos PREENCHER precisam ser resolvidos antes de gerar. Campos iniciados com _ são instruções.",
+ "cliente": "PREENCHER: nome do cliente como está na ficha",
+ "slug": "PREENCHER-slug-do-cliente-em-minusculas-sem-acento",
+ "rodape": "Próximo encontro: Diagnóstico de Marketing (Semana 3)",
+ "ponte": {
+  "trilha": [
+   [
+    "Kickoff",
+    "done"
+   ],
+   [
+    "Pesquisa de Mercado",
+    "now"
+   ],
+   [
+    "Diagnóstico de Marketing",
+    ""
+   ],
+   [
+    "Diagnóstico Comercial",
+    ""
+   ],
+   [
+    "Planejamento Estratégico + Entregáveis",
+    ""
+   ]
+  ],
+  "colunas": [
+   [
+    "O que já vimos",
+    [
+     "PREENCHER: fato 1 do Kickoff, nas palavras do cliente",
+     "PREENCHER: fato 2 do Kickoff"
+    ]
+   ],
+   [
+    "O que vamos ver hoje",
+    [
+     "<b>A trava deste encontro:</b> PREENCHER: a mesma trava de Próximos passos",
+     "PREENCHER: pauta real com análise, grupos, concorrência e concentração"
+    ]
+   ]
+  ],
+  "pausa": "Do nosso último encontro, o que ficou mais forte para você?"
+ },
+ "hero": {
+  "titulo": "PREENCHER: a ideia central de _fonte/ideia-central.md, até 10 palavras (pode quebrar em 2 frases com <br>). Título: não diz mais que os rótulos da tela; mantém o mesmo recorte e o mesmo tipo (hipótese continua hipótese). Ruim: “A fila faz o cliente sair”, com o rótulo “cancelamentos registrados em 2025”. Bom: “Os cancelamentos registrados em 2025 somam 120; a causa ainda é hipótese”.",
+  "lede": "PREENCHER: o fato que prova a ideia e o que ele muda para o cliente, em uma frase na língua dele",
+  "meta": [
+   [
+    "PREENCHER: rótulo da métrica 1. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+    "PREENCHER: valor"
+   ],
+   [
+    "PREENCHER: rótulo da métrica 2. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+    "PREENCHER: valor"
+   ]
+  ],
+  "fontes": [
+   [
+    "PREENCHER: rótulo",
+    "PREENCHER: fonte e ano",
+    null
+   ]
+  ]
+ },
+ "_amarra": "Toda tela numerada leva \"amarra\": {\"pilar\": \"nome do pilar como está no escopo\", \"dor\": \"fala do cliente entre aspas, com a reunião\", \"cliente\": \"a ou o + nome do cliente\", \"cliente_texto\": \"o que a tela significa para ele, com nomes próprios\"}. A faixa sai logo abaixo do título.",
+ "telas": [
+  {
+   "eyebrow": "01 · Análise de mercado",
+   "h2": "PREENCHER: leitura clara do cenário e do preço comparável, sem exceder a evidência",
+   "amarra": {
+    "pilar": "PREENCHER: pilar do escopo",
+    "dor": "PREENCHER: fala do cliente, com a reunião",
+    "cliente": "PREENCHER: a ou o + nome do cliente",
+    "cliente_texto": "PREENCHER: o que esta tela significa para ele, com nomes próprios"
+   },
+   "blocos": [
+    {
+     "t": "cells",
+     "cols": 3,
+     "itens": [
+      [
+       "PREENCHER: rótulo do indicador. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+       "PREENCHER: valor com unidade",
+       "PREENCHER: leitura, com o dono do número"
+      ],
+      [
+       "PREENCHER: rótulo do indicador. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+       "PREENCHER: valor com unidade",
+       "PREENCHER: leitura"
+      ]
+     ]
+    },
+    {
+     "t": "barras",
+     "itens": [
+      [
+       "PREENCHER: rótulo da referência do mercado, com dono e unidade. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+       1,
+       "PREENCHER: valor",
+       false
+      ],
+      [
+       "PREENCHER: rótulo do preço do cliente, com unidade. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+       1,
+       "PREENCHER: valor",
+       true
+      ]
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Mercado",
+     "PREENCHER: fonte e ano de cada número do mercado",
+     null
+    ],
+    [
+     "Preço do cliente",
+     "PREENCHER: tabela ou reunião de origem",
+     null
+    ]
+   ],
+   "pausa": "PREENCHER: pergunta de validação desta tela",
+   "cenario": [
+    {
+     "fato": "PREENCHER: fato externo que altera a venda, crescimento ou retração quando demonstrados",
+     "fonte": "PREENCHER: fonte e referência verificável",
+     "ano": "PREENCHER: ano do dado",
+     "impacto": "PREENCHER: o que muda na abordagem comercial"
+    }
+   ],
+   "_regulacao": "Quando pertinente, acrescentar regulacao:[{regra,fonte,efeito}]. Dizer o que a regra permite/proíbe na venda e comunicação; ausência de dado não comprova ausência de regulação."
+  },
+  {
+   "eyebrow": "02 · Tamanho do mercado (TAM, SAM e SOM)",
+   "h2": "PREENCHER: título em frase completa com o achado sobre o mercado alcançável frente à meta. Título: não diz mais que os rótulos da tela; mantém o mesmo recorte e o mesmo tipo (hipótese continua hipótese). Ruim: “A fila faz o cliente sair”, com o rótulo “cancelamentos registrados em 2025”. Bom: “Os cancelamentos registrados em 2025 somam 120; a causa ainda é hipótese”.",
+   "amarra": {
+    "pilar": "PREENCHER: pilar do escopo",
+    "dor": "PREENCHER: fala do cliente, com a reunião",
+    "cliente": "PREENCHER: a ou o + nome do cliente",
+    "cliente_texto": "PREENCHER: o que esta tela significa para ele, com nomes próprios"
+   },
+   "blocos": [
+    {
+     "t": "elipses",
+     "camadas": [
+      [
+       "TAM",
+       "Mercado Total",
+       "PREENCHER: valor",
+       "PREENCHER: recorte e fórmula"
+      ],
+      [
+       "SAM",
+       "Mercado Atendível",
+       "PREENCHER: valor",
+       "PREENCHER: recorte no nível de mercado do foco declarado"
+      ],
+      [
+       "SOM",
+       "Mercado Alcançável",
+       "PREENCHER: N <unidade do comprador> em 12 meses (conservador); médio e agressivo com premissa fundamentada, inclusive proposta pela consultoria. Distinguir tração observada, cenário condicional e previsão. Hipótese exige premissas com origem; sem base, declarar a lacuna e a verificação necessária, sem número.",
+       "PREENCHER: capacidade demonstrada e a premissa de cada cenário, com origem e limites; premissa proposta: autor, justificativa e teste; sem fundamento, lacuna no DOCX"
+      ]
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "TAM",
+     "PREENCHER: fonte oficial e ano",
+     null
+    ],
+    [
+     "SAM",
+     "PREENCHER: estimativa V4 e o método",
+     null
+    ],
+    [
+     "SOM",
+     "PREENCHER: estimativa V4 e a premissa",
+     null
+    ],
+    [
+     "Meta",
+     "PREENCHER: reunião de origem",
+     null
+    ]
+   ],
+   "glossario": [
+    [
+     "TAM",
+     "mercado total que o produto poderia atender"
+    ],
+    [
+     "SAM",
+     "parte do TAM que a empresa atende pelo seu recorte"
+    ],
+    [
+     "SOM",
+     "parte do SAM que a empresa consegue alcançar com a capacidade que já mostrou"
+    ]
+   ],
+   "pausa": "A meta faz sentido frente a esse tamanho de mercado?",
+   "tam_compradores": {
+    "valor": "PREENCHER: contagem, ordem de grandeza com premissas ou lacuna",
+    "fonte": "PREENCHER: cadastro/fonte da contagem ou razão da lacuna"
+   },
+   "sam_compradores": {
+    "valor": "PREENCHER: contagem no recorte atendível ou lacuna",
+    "fonte": "PREENCHER: fonte e recorte"
+   },
+   "mercado_limita": "PREENCHER: limita, não limita ou depende de qual evidência, com fundamento",
+  "_leitura_meta": "A leitura da meta tem uma única casa: leitura_meta. Com meta_declarada:true, informar participação da meta no SAM em dinheiro e/ou compradores, número e dono de cada um. Sem meta, a geração pergunta resultado e prazo, sem inventar meta."
+  },
+  {
+   "eyebrow": "03 · Camadas e papéis",
+   "h2": "PREENCHER: grupos pertinentes e papel na compra",
+   "fontes": [
+    [
+     "Mercado",
+     "PREENCHER: fonte e ano de cada número do mercado",
+     null
+    ],
+    [
+     "Preço do cliente",
+     "PREENCHER: tabela ou reunião de origem",
+     null
+    ]
+   ],
+   "blocos": [],
+   "_camadas": "Ao menos um grupo. Acrescentar/remover conforme mercado, nunca forçar três. Contagem ausente mantém lacuna e teste. Não confundir com TAM/SAM/SOM, que continua exatamente três.",
+   "camadas": [
+    {
+     "nome": "PREENCHER: grupo comprador",
+     "recorte": "PREENCHER: praça e critério que delimita o grupo",
+     "contagem": "PREENCHER: quantidade ou lacuna com verificação",
+     "fonte": "PREENCHER: fonte ou origem da lacuna",
+     "papel": "PREENCHER: decide, influencia, usa ou intermedeia"
+    }
+   ]
+  },
+  {
+   "eyebrow": "04 · Concorrentes",
+   "h2": "PREENCHER: o que a comparação permite decidir",
+   "amarra": {
+    "pilar": "PREENCHER: pilar do escopo",
+    "dor": "PREENCHER: fala do cliente, com a reunião",
+    "cliente": "PREENCHER: a ou o + nome do cliente",
+    "cliente_texto": "PREENCHER: o que esta tela significa para ele, com nomes próprios"
+   },
+   "blocos": [
+    {
+     "t": "tabela",
+     "cab": [
+      "Critério",
+      "PREENCHER: cliente",
+      "PREENCHER: concorrente confirmado; remover coluna se nenhum"
+     ],
+     "linhas": [
+      [
+       "Público-alvo",
+       "PREENCHER: dado ou estado da lacuna",
+       "PREENCHER: referência conferida ou sinal a coletar"
+      ],
+      [
+       "Diferencial",
+       "PREENCHER: dado ou estado da lacuna",
+       "PREENCHER: referência conferida ou sinal a coletar"
+      ],
+      [
+       "Atendimento",
+       "PREENCHER: dado ou estado da lacuna",
+       "PREENCHER: referência conferida ou sinal a coletar"
+      ],
+      [
+       "Preço (unidade e período)",
+       "PREENCHER: dado ou estado da lacuna",
+       "PREENCHER: referência conferida ou sinal a coletar"
+      ],
+      [
+       "Canal",
+       "PREENCHER: dado ou estado da lacuna",
+       "PREENCHER: referência conferida ou sinal a coletar"
+      ],
+      [
+       "Como anunciam",
+       "PREENCHER: dado ou estado da lacuna",
+       "PREENCHER: referência conferida ou sinal a coletar"
+      ]
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Concorrentes",
+     "PREENCHER: sites, Biblioteca de Anúncios da Meta, marketplaces e a data da coleta",
+     null
+    ]
+   ],
+   "_concorrentes": "Somente nomes com identidade e pertinência demonstradas; nenhum mínimo de vagas. Substituto entra se documentado: cartão Substituto · nome e coluna equivalente na matriz. Sem concorrente confirmado, registrar sinais, fonte a coletar, dono e prazo; não inventar player.",
+   "posicionamento": {
+    "frase": "PREENCHER: posição defensável ou hipótese específica",
+    "prova": "PREENCHER: evidência, origem, alcance e limite; uma premissa não se torna prova",
+    "estado": "hipótese sustentada"
+   },
+   "fundamento_oferta": {
+    "comprador": "PREENCHER: público e critério de compra com origem",
+    "situacao_compra": "PREENCHER: situação que abre a compra",
+    "promessa": "PREENCHER: benefício dentro da evidência; inferência marcada",
+    "diferencial": "PREENCHER: atributo sustentado, sem exclusividade inventada",
+    "provas": "PREENCHER: origem, entidade, período e alcance",
+    "objecoes": "PREENCHER: objeções observadas ou hipótese a testar",
+    "proximo_passo": "PREENCHER: ação que permite verificar o posicionamento"
+   }
+  },
+  {
+   "eyebrow": "05 · Forças, Fraquezas, Oportunidades e Ameaças (SWOT)",
+   "h2": "PREENCHER: título em frase completa com o achado do SWOT. Título: não diz mais que os rótulos da tela; mantém o mesmo recorte e o mesmo tipo (hipótese continua hipótese). Ruim: “A fila faz o cliente sair”, com o rótulo “cancelamentos registrados em 2025”. Bom: “Os cancelamentos registrados em 2025 somam 120; a causa ainda é hipótese”.",
+   "amarra": {
+    "pilar": "PREENCHER: pilar do escopo",
+    "dor": "PREENCHER: fala do cliente, com a reunião",
+    "cliente": "PREENCHER: a ou o + nome do cliente",
+    "cliente_texto": "PREENCHER: o que esta tela significa para ele, com nomes próprios"
+   },
+   "blocos": [
+    {
+     "t": "cards",
+     "cols": 2,
+     "itens": [
+      {
+       "tag": "Forças",
+       "ul": [
+        "PREENCHER: 3 a 5 pontos internos"
+       ]
+      },
+      {
+       "tag": "Fraquezas",
+       "ul": [
+        "PREENCHER: 3 a 5 pontos internos"
+       ]
+      },
+      {
+       "tag": "Oportunidades",
+       "ul": [
+        "PREENCHER: 3 a 5 pontos externos, das telas 01 a 03"
+       ]
+      },
+      {
+       "tag": "Ameaças",
+       "ul": [
+        "PREENCHER: 3 a 5 pontos externos, das telas 01 a 03"
+       ]
+      }
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Interno",
+     "PREENCHER: ficha e Kickoff",
+     null
+    ],
+    [
+     "Externo",
+     "telas 01 a 03",
+     null
+    ]
+   ],
+   "_sem_fonte_externa": "SWOT permanece. Oportunidade/ameaça sem fonte externa vira sinal a coletar, onde coletar e quem confirma; não afirmar especulação."
+  },
+  {
+   "eyebrow": "06 · Perfil de Cliente Ideal e personas (ICP)",
+   "h2": "PREENCHER: papéis na decisão de compra e critérios do público",
+   "amarra": {
+    "pilar": "PREENCHER: pilar do escopo",
+    "dor": "PREENCHER: fala do cliente, com a reunião",
+    "cliente": "PREENCHER: a ou o + nome do cliente",
+    "cliente_texto": "PREENCHER: o que esta tela significa para ele, com nomes próprios"
+   },
+   "blocos": [
+    {
+     "t": "cards",
+     "cols": 2,
+     "itens": [
+      {
+       "tag": "PREENCHER: persona 1",
+       "p": "PREENCHER: quem decide, o que busca, como compra"
+      },
+      {
+       "tag": "PREENCHER: persona 2",
+       "p": "PREENCHER: quem decide, o que busca, como compra"
+      }
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Público",
+     "PREENCHER: Kickoff, base do cliente e pesquisa",
+     null
+    ]
+   ],
+   "glossario": [
+    [
+     "ICP",
+     "o perfil de cliente que mais compensa atender primeiro"
+    ]
+   ],
+   "pausa": "Essas personas se parecem com clientes reais de vocês?",
+   "comite_compra": {
+    "decide": "PREENCHER: decisor e origem",
+    "influencia": "PREENCHER: influenciador técnico/econômico e origem",
+    "usa": "PREENCHER: usuário e origem"
+   },
+   "_comite": "Obrigatório para B2B/B2G. Sem nome conhecido, explicitar papel pendente, quem verifica e quando; nunca inventar pessoa. B2C pode remover este campo."
+  },
+  {
+   "eyebrow": "08 · Onde concentrar",
+   "h2": "PREENCHER: concentração sustentada ou provisória",
+   "fontes": [
+    [
+     "Mercado",
+     "PREENCHER: fonte e ano de cada número do mercado",
+     null
+    ],
+    [
+     "Preço do cliente",
+     "PREENCHER: tabela ou reunião de origem",
+     null
+    ]
+   ],
+   "blocos": [],
+   "onde_concentrar": {
+    "criterios": [
+     "PREENCHER: critério comum que muda a escolha"
+    ],
+    "grupos": [
+     {
+      "nome": "PREENCHER: grupo/mercado",
+      "papel": "base",
+      "motivo": "PREENCHER: evidência e limite da prioridade"
+     }
+    ],
+    "por_agora_nao": "PREENCHER: o que fica fora e condição de revisão"
+   },
+   "_papeis": "base | expansão | possibilidade | fora. A ordem entre mercados mora aqui, não no ICP. Opcional 07 · Como os concorrentes se posicionam pode anteceder 08 se houver evidência pertinente."
+  },
+  {
+   "eyebrow": "Próximos passos",
+   "h2": "PREENCHER: primeira ação contra a trava",
+   "sem_fonte": true,
+   "blocos": [
+    {
+     "t": "proximos_passos",
+     "trava": "PREENCHER: trava específica sustentada e referência do encontro",
+     "acoes": [
+      {
+       "acao": "PREENCHER: verbo e objeto que ataca a trava, viável em até 7 dias",
+       "dono": "PREENCHER: um responsável, proposto ou confirmado",
+       "prazo": "PREENCHER: prazo/data real",
+       "comece_aqui": true
+      },
+      {
+       "acao": "Iniciar cliente oculto do cliente e de dois concorrentes confirmados",
+       "dono": "PREENCHER: responsável proposto ou confirmado pela execução",
+       "prazo": "PREENCHER: data após a Pesquisa, com dependências explícitas",
+       "comece_aqui": false
+      }
+     ],
+     "pausa": "PREENCHER: validação e viabilidade da primeira ação",
+     "gancho": "PREENCHER: pergunta real que a Semana 3 vai aprofundar"
+    }
+   ],
+   "_acoes": "Uma a cinco ações pertinentes. Exatamente uma comece_aqui:true, primeira. Demais false. Dono e prazo por ação; plano por horizontes será consolidado na S5.",
+   "_cliente_oculto": "Item de execução a conferir: persona coerente com praça, DDD e e-mail; mesmo roteiro para cliente e dois concorrentes. Em contas que se conhecem, só canais públicos. Confirmar responsável/data e pré-condições; registrar válido, parcial, inválido ou ausente. Contaminação não produz score, preservando evidência independente. Não declarar realizado antes da execução."
+  },
+  {
+   "eyebrow": "Achados que mudam a decisão",
+   "h2": "Sumário e como ler",
+   "so_docx": true,
+   "blocos": [
+    {
+     "t": "checklist",
+     "itens": [
+      "PREENCHER: achado decisivo e tela; manter só achados pertinentes"
+     ]
+    },
+    {
+     "t": "explicador",
+     "tag": "Como ler",
+     "ps": [
+      "Dado é registro com fonte e alcance. Estimativa é uma faixa com premissas explícitas; premissa é condição proposta, não prova.",
+      "PREENCHER: cada estimativa, suas premissas e qual medição a substituirá; fonte, método e limites."
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Metodologia",
+     "PREENCHER: fontes oficiais, consultorias e estimativas V4 usadas",
+     null
+    ]
+   ],
+   "abertura_docx": true
+  },
+  {
+   "eyebrow": "Detalhe · Cruzamentos do SWOT (TOWS)",
+   "h2": "PREENCHER: título em frase completa com o achado sobre como os quadrantes viram decisão. Título: não diz mais que os rótulos da tela; mantém o mesmo recorte e o mesmo tipo (hipótese continua hipótese). Ruim: “A fila faz o cliente sair”, com o rótulo “cancelamentos registrados em 2025”. Bom: “Os cancelamentos registrados em 2025 somam 120; a causa ainda é hipótese”.",
+   "amarra": {
+    "pilar": "PREENCHER: pilar do escopo",
+    "dor": "PREENCHER: fala do cliente, com a reunião",
+    "cliente": "PREENCHER: a ou o + nome do cliente",
+    "cliente_texto": "PREENCHER: o que esta tela significa para ele, com nomes próprios"
+   },
+   "blocos": [
+    {
+     "t": "cards",
+     "cols": 2,
+     "itens": [
+      {
+       "tag": "Atacar · forças × oportunidades",
+       "p": "PREENCHER: estratégia em 1 ou 2 linhas, com nomes do cliente"
+      },
+      {
+       "tag": "Defender · forças × ameaças",
+       "p": "PREENCHER: estratégia em 1 ou 2 linhas"
+      },
+      {
+       "tag": "Corrigir · fraquezas × oportunidades",
+       "p": "PREENCHER: estratégia em 1 ou 2 linhas"
+      },
+      {
+       "tag": "Evitar · fraquezas × ameaças",
+       "p": "PREENCHER: estratégia em 1 ou 2 linhas"
+      }
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Base",
+     "SWOT da tela anterior",
+     null
+    ]
+   ],
+   "so_docx": true
+  },
+  {
+   "eyebrow": "Detalhe · Concorrentes e oferta",
+   "h2": "Evidência da comparação",
+   "so_docx": true,
+   "fontes": [
+    [
+     "Mercado",
+     "PREENCHER: fonte e ano de cada número do mercado",
+     null
+    ],
+    [
+     "Preço do cliente",
+     "PREENCHER: tabela ou reunião de origem",
+     null
+    ]
+   ],
+   "blocos": [
+    {
+     "t": "lede",
+     "texto": "PREENCHER: identidade, pertinência, fonte/data, oferta e limites de cada concorrente efetivamente confirmado; sinais a coletar quando ausente."
+    }
+   ]
+  },
+  {
+   "eyebrow": "Detalhe · Capacidade e meta",
+   "h2": "Como chegamos ao SOM",
+   "so_docx": true,
+   "blocos": [
+    {
+     "t": "cells",
+     "cols": 3,
+     "itens": [
+      [
+       "PREENCHER: rótulo da origem da receita ou do cenário. Rótulo: diz só o que o número conta, com o recorte da conta e o tipo (observado, estimativa, promessa ou teto). Ruim: “clientes perdidos para o concorrente”, para um número que só conta cancelamentos. Bom: “cancelamentos registrados em 2025”.",
+       "PREENCHER: valor",
+       "PREENCHER: premissa e dono do número"
+      ]
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Capacidade",
+     "PREENCHER: reunião ou documento de origem",
+     null
+    ]
+   ]
+  },
+  {
+   "eyebrow": "Detalhe · Mercados secundários",
+   "h2": "Cada mercado declarado, com o mesmo peso",
+   "so_docx": true,
+   "blocos": [
+    {
+     "t": "tabela",
+     "cab": [
+      "Mercado",
+      "Como funciona e quem paga",
+      "Referência de preço contra a tabela do cliente",
+      "TAM, SAM e SOM"
+     ],
+     "linhas": [
+      [
+       "PREENCHER: mercado",
+       "PREENCHER",
+       "PREENCHER",
+       "PREENCHER"
+      ]
+     ]
+    }
+   ],
+   "fontes": [
+    [
+     "Mercados",
+     "PREENCHER: fonte e ano de cada linha",
+     null
+    ]
+   ]
+  },
+  {
+   "eyebrow": "Detalhe · Pontos de melhoria, soluções e estrutura ideal",
+   "h2": "O que sustenta os próximos passos",
+   "so_docx": true,
+   "fontes": [
+    [
+     "Mercado",
+     "PREENCHER: fonte e ano de cada número do mercado",
+     null
+    ],
+    [
+     "Preço do cliente",
+     "PREENCHER: tabela ou reunião de origem",
+     null
+    ]
+   ],
+   "blocos": [
+    {
+     "t": "tabela",
+     "cab": [
+      "Ponto de melhoria",
+      "Solução sustentada ou teste",
+      "Estrutura ideal e condição"
+     ],
+     "linhas": [
+      [
+       "PREENCHER: achado com fonte e efeito na decisão",
+       "PREENCHER: solução proporcional à evidência",
+       "PREENCHER: estrutura necessária e condição de revisão"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "_contrato_editorial": "Resumo ideia-central.md: 400 a 700 palavras no total; decisão de aproximadamente 300 palavras inclusa, com alternativa, contrária, teste e revisão. Linhas O que vendemos:, Substituto:, Preço comparável: únicas. Títulos de 01 a 08, com 07 opcional, claros e proporcionais à evidência. Provas completas e histórico em provas-cliente.md; inferência pela regra de padrao/estilo-de-escrita.md.",
+ "esquema_pesquisa": 2,
+ "meta_declarada": false,
+ "tipo_comprador": "B2B"
+}

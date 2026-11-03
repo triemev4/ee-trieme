@@ -1,0 +1,24 @@
+{
+  "name": "ee-trieme",
+  "version": "1.3.0",
+  "description": "Padrão da Estruturação Estratégica (EE) da Trieme & Co: guias das cinco semanas, modelos, gatilhos, scripts de verificação e geradores.",
+  "author": {
+    "name": "Trieme & Co"
+  },
+  "userConfig": {
+    "consultor_nome": {
+      "type": "string",
+      "title": "Nome do consultor",
+      "description": "Nome que assina os materiais da EE (capa do Kickoff, DOCX, rodapés).",
+      "required": true
+    },
+    "consultor_cargo": {
+      "type": "string",
+      "title": "Cargo do consultor",
+      "description": "Cargo que aparece ao lado do nome nos materiais.",
+      "required": true
+    }
+  },
+  "homepage": "https://github.com/triemev4/ee-trieme",
+  "repository": "https://github.com/triemev4/ee-trieme.git"
+}

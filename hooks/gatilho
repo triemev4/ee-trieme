@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Gatilhos do pacote ee-trieme. Uso (pelo run-hook.cmd): gatilho <sessao|gravacao|parar>
+# Acha um Python 3 e entrega a lógica a ee_gatilhos.py. Sem Python, sai em silêncio.
+
+set -u
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+for cand in python3 python py; do
+  if command -v "$cand" >/dev/null 2>&1; then
+    if [ "$cand" = "py" ]; then
+      "$cand" -3 -c "import sys" >/dev/null 2>&1 || continue
+      exec py -3 -B "${SCRIPT_DIR}/ee_gatilhos.py" "$@"
+    fi
+    "$cand" -c "import sys; sys.exit(0 if sys.version_info[0] == 3 else 1)" >/dev/null 2>&1 || continue
+    exec "$cand" -B "${SCRIPT_DIR}/ee_gatilhos.py" "$@"
+  fi
+done
+
+exit 0

@@ -1,0 +1,104 @@
+{
+  "cliente": "PREENCHER: nome do cliente",
+  "slug": "PREENCHER-slug-do-cliente-em-minusculas-sem-acento",
+  "titulo": "Registro do Kickoff",
+  "subtitulo": "PREENCHER: nome do cliente · Reunião de data",
+  "rodape": "Trieme & Co · V4 Company · Registro do Kickoff · PREENCHER: nome do cliente",
+  "meta": [
+    ["Data", "PREENCHER: data, hora e duração real da reunião"],
+    ["Reunião", "Kickoff, Semana 1 da Estruturação Estratégica"],
+    ["Consultor responsável (Trieme & Co)", "{consultor_nome}, {consultor_cargo}"],
+    ["Participantes do cliente", "PREENCHER: participantes por função, nunca por nome"],
+    ["Próximo encontro", "PREENCHER: data e hora da Semana 2, Pesquisa de Mercado"]
+  ],
+  "sobre": [
+    "Este registro reúne o que foi conversado no Kickoff, organizado por tema. Serve como memória da reunião e como base para as próximas semanas. Os números e fatos foram informados pelo próprio cliente durante a conversa.",
+    "As pessoas da equipe são identificadas por função. Nomes ouvidos de ouvido estão marcados para confirmar a grafia."
+  ],
+  "secoes": [
+    {
+      "titulo": "Sumário",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: resumo em poucas linhas, só com o que foi dito na reunião"}
+      ]
+    },
+    {
+      "titulo": "Dores e expectativas",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: as dores nas palavras do cliente, só o que foi dito na reunião"},
+        {"tipo": "call", "lbl": "Critério de sucesso", "t": "PREENCHER: o que precisa mudar, nas palavras do cliente"}
+      ]
+    },
+    {
+      "titulo": "Empresa e produto: o que a reunião acrescentou",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: o que a reunião acrescentou ou corrigiu sobre empresa e produto; sem acréscimo, escreva \"sem acréscimo à venda\""}
+      ]
+    },
+    {
+      "titulo": "Tração atual",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: receita, carteira, negociações abertas e conversão, só o que o cliente informou; o que faltou, escreva \"não informado\""}
+      ]
+    },
+    {
+      "titulo": "Modelo comercial e de preço",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: como a venda acontece, preço e unidade, ciclo e entrega, só o que foi dito"}
+      ]
+    },
+    {
+      "titulo": "Equipe e papéis na venda",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: quem decide, quem influencia e quem executa, por função"}
+      ]
+    },
+    {
+      "titulo": "Marketing hoje",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: próximo passo desejado, oferta de entrada, canais, quem atualiza e histórico de anúncios, só o que foi dito"}
+      ]
+    },
+    {
+      "titulo": "Metas, verba e prazo",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: meta de 12 meses, verba mínima e máxima, prazo de retorno, evento crítico em 90 dias e sazonalidade, nas palavras do cliente; sem número, escreva \"não declarada\""}
+      ]
+    },
+    {
+      "titulo": "Concorrentes citados",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: concorrentes citados e o argumento de cada um contra o cliente, com a resposta dele; sem citação, escreva \"nenhum citado\""}
+      ]
+    },
+    {
+      "titulo": "Decisões alinhadas",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: o que ficou decidido na reunião; mudança proposta pelo cliente entra como hipótese para a Semana 2"}
+      ]
+    },
+    {
+      "titulo": "Pendências e pedidos para a Semana 2",
+      "blocos": [
+        {
+          "tipo": "tab",
+          "cab": ["O que falta", "Quem envia", "Até quando", "O que fica sem concluir até lá"],
+          "larg": [5.2, 3.2, 2.6, 5.6],
+          "linhas": [["PREENCHER: dado, acesso ou arquivo pendente", "PREENCHER: função do responsável", "PREENCHER: data de corte", "PREENCHER: análise que não sai sem isso"]]
+        }
+      ]
+    },
+    {
+      "titulo": "Próximas etapas",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: data da Semana 2 e o responsável por cada próxima etapa"}
+      ]
+    },
+    {
+      "titulo": "Pontos que vamos aprofundar",
+      "blocos": [
+        {"tipo": "p", "t": "PREENCHER: os insumos que a reunião não capturou, escritos como perguntas"}
+      ]
+    }
+  ]
+}

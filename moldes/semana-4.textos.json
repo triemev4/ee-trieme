@@ -1,0 +1,860 @@
+{
+  "_leia": "Exemplo público inteiramente fictício da Semana 4. Empresa, pessoas, falas, números e evidências são sintéticos para demonstração; não descrevem clientes reais. As imagens de teste também são sintéticas.",
+  "_cliente": "Vértice Climatização",
+  "geral": {
+    "titulo_aba": "Diagnóstico Comercial · Vértice Climatização",
+    "cliente": "Vértice Climatização",
+    "consultor": "Consultor",
+    "para_cliente": "Para a Vértice"
+  },
+  "opcionais": {
+    "tela-04": true
+  },
+  "tela-01": {
+    "ja_vimos": [
+      "Google Ads e Meta Ads: o que traz pedido de orçamento e quanto custa cada contato.",
+      "Site e Google Meu Negócio: onde o cliente desiste antes de pedir a visita técnica."
+    ],
+    "hoje": [
+      "Distância até o objetivo, validade do cliente oculto e processo atual.",
+      "Escada do time, horizontes, indicadores, funil e playbook.",
+      "CRM, perdas, pós-venda e próximos passos com teste do dobro."
+    ],
+    "pausa": "Do Diagnóstico de Marketing, o que vocês já mudaram?"
+  },
+  "tela-02": {
+    "lede": "Como a Vértice vende instalação e manutenção de ar-condicionado hoje, onde perde o orçamento e como organizar o time.",
+    "destaques": [
+      {
+        "rotulo": "Vendedores",
+        "valor": "2 consultores técnicos"
+      },
+      {
+        "rotulo": "Decisão de preço",
+        "valor": "Com o sócio técnico"
+      }
+    ]
+  },
+  "tela-04": {
+    "abertura": "Pedimos o mesmo orçamento à Vértice e a três concorrentes da região, pelo WhatsApp e pelo site.",
+    "amarra": {
+      "pilar": "Cliente oculto",
+      "dor": "\"A gente manda o orçamento e o cliente some\" (Kickoff)",
+      "para": "a Vértice responde rápido, mas é a única das quatro que não marca a visita na primeira conversa"
+    },
+    "concorrentes": [
+      "Polar Ar",
+      "Clima Norte",
+      "FrioTec"
+    ],
+    "dossie": [
+      {
+        "criterio": "Tempo até a 1ª resposta",
+        "cliente": "12 minutos",
+        "concorrentes": [
+          "2 horas",
+          "25 minutos",
+          "não informado"
+        ]
+      },
+      {
+        "criterio": "Visita técnica",
+        "cliente": "Não oferecida na conversa",
+        "concorrentes": [
+          "Agendada na hora",
+          "Agendada na hora",
+          "Oferecida por link"
+        ]
+      },
+      {
+        "criterio": "Orçamento",
+        "cliente": "Valor fechado sem visita",
+        "concorrentes": [
+          "Depois da visita",
+          "Faixa de preço",
+          "Depois da visita"
+        ]
+      },
+      {
+        "criterio": "Condição de pagamento",
+        "cliente": "À vista com desconto",
+        "concorrentes": [
+          "Parcelado em 10 vezes",
+          "não informado",
+          "Parcelado em 6 vezes"
+        ]
+      },
+      {
+        "criterio": "Follow-up (retomada)",
+        "cliente": "Nenhum em 7 dias",
+        "concorrentes": [
+          "1 mensagem em 2 dias",
+          "Ligação no dia seguinte",
+          "não informado"
+        ]
+      },
+      {
+        "criterio": "Contrato de manutenção",
+        "cliente": "Não mencionado",
+        "concorrentes": [
+          "Oferecido junto",
+          "Não mencionado",
+          "Oferecido junto"
+        ]
+      }
+    ],
+    "prints": {
+      "caminho": "semana-4-print-teste.png",
+      "alt": "Print da conversa do cliente oculto com a Vértice"
+    },
+    "evidencia": {
+      "nota": "Os prints das quatro conversas ficam na pasta do cliente.",
+      "rotulo": "prints das conversas"
+    },
+    "pontos": [
+      "**Sem visita técnica na conversa:** o cliente recebe um número e compara só o preço.",
+      "**Sem retomada:** nenhum contato em 7 dias depois do orçamento.",
+      "**Contrato de manutenção ausente:** a venda termina na instalação."
+    ],
+    "solucoes": [
+      {
+        "texto": "**Visita técnica oferecida** na primeira conversa, com dois horários.",
+        "dono": "Consultores técnicos · 30 dias (H1)"
+      },
+      {
+        "texto": "**Retomada em 1, 3 e 7 dias** depois do orçamento.",
+        "dono": "Coordenador de vendas · 30 dias (H1)"
+      },
+      {
+        "texto": "**Parcelamento** informado junto do valor.",
+        "dono": "Sócio comercial · 30 dias (H1)"
+      },
+      {
+        "texto": "**Contrato de manutenção** oferecido em todo orçamento de instalação.",
+        "dono": "Consultores técnicos · H2"
+      },
+      {
+        "texto": "**Tempo máximo de resposta:** ideal de 5 minutos e máximo de 30, meta proposta a validar com o histórico.",
+        "dono": "Coordenador de vendas · 30 dias (H1)"
+      }
+    ],
+    "ideal_titulo": "do pedido à visita",
+    "ideal": [
+      {
+        "k": "1",
+        "titulo": "Resposta",
+        "texto": "Até 30 minutos no horário comercial.",
+        "destaque": 0
+      },
+      {
+        "k": "2",
+        "titulo": "Perguntas",
+        "texto": "Ambiente, quantidade de aparelhos e prazo.",
+        "destaque": 0
+      },
+      {
+        "k": "3",
+        "titulo": "Visita",
+        "texto": "Dois horários oferecidos na conversa.",
+        "destaque": 1
+      },
+      {
+        "k": "4",
+        "titulo": "Orçamento",
+        "texto": "Enviado no dia da visita, com parcelamento.",
+        "destaque": 0
+      },
+      {
+        "k": "5",
+        "titulo": "Retomada",
+        "texto": "1, 3 e 7 dias depois.",
+        "destaque": 0
+      }
+    ],
+    "pausa": "Por que a visita não é oferecida na primeira conversa?",
+    "validade": {
+      "estado": "Parcial: evidência qualitativa, sem score conclusivo",
+      "protocolo": "Conferir cenário, horário, canal e identificação usados no contato.",
+      "limite": "Se houver contaminação, invalidar o teste e manter somente evidência independente."
+    }
+  },
+  "tela-05": {
+    "titulo": "Registrar a passagem e a espera em cada etapa",
+    "abertura": "Mapeamos quem decide o preço, quem visita e quem fecha.",
+    "imagem": null,
+    "alternativa": "Fluxo textual de trabalho a conferir com a equipe: entrada, atendimento, proposta, decisão e retomada. Imagem em raias pode substituir o desenho, mantendo esta leitura.",
+    "etapas": [
+      {
+        "etapa": "Entrada e atendimento",
+        "dono": "Atendimento atual; confirmar papel",
+        "entrada": "Pedido recebido pelo canal em uso",
+        "saida": "Necessidade, origem e próximo passo registrados",
+        "trava": "Medir espera antes da primeira resposta"
+      },
+      {
+        "etapa": "Proposta e decisão",
+        "dono": "Vendas e papel que aprova condição",
+        "entrada": "Pedido qualificado",
+        "saida": "Proposta com prazo e condição de retorno",
+        "trava": "Registrar dependência de aprovação e sua duração"
+      },
+      {
+        "etapa": "Retomada e conclusão",
+        "dono": "Responsável pela negociação",
+        "entrada": "Proposta enviada",
+        "saida": "Resposta, pedido ou motivo de perda registrado",
+        "trava": "Conferir se há retorno e quem o executa"
+      }
+    ],
+    "dores": [
+      {
+        "dor": "**Visita concentrada:** só o sócio técnico mede o ambiente.",
+        "evidencia": "Levantamento anterior do diagnóstico; confirmar no processo observado",
+        "impacto": "Explicitar efeito em fila, prazo ou perda antes de priorizar"
+      },
+      {
+        "dor": "**Desconto sem regra:** cada caso vai ao sócio.",
+        "evidencia": "Levantamento anterior do diagnóstico; confirmar no processo observado",
+        "impacto": "Explicitar efeito em fila, prazo ou perda antes de priorizar"
+      }
+    ],
+    "tarefas": [
+      {
+        "acao": "**Visita pelos consultores** com checklist de medição.",
+        "dono": "Sócio técnico · 30 dias (H1)",
+        "prazo": "Conforme validação da rotina e liberação"
+      },
+      {
+        "acao": "**Tabela de desconto** por faixa de valor.",
+        "dono": "Sócio comercial · 30 dias (H1)",
+        "prazo": "Conforme validação da rotina e liberação"
+      },
+      {
+        "acao": "**Agenda de visitas** única, vista por todos.",
+        "dono": "Coordenador de vendas · H2",
+        "prazo": "Conforme validação da rotina e liberação"
+      }
+    ],
+    "pausa": "Quantas visitas o sócio técnico faz por semana?",
+    "_topologia_anterior": {
+      "abertura": "Mapeamos quem decide o preço, quem visita e quem fecha.",
+      "amarra": {
+        "pilar": "Estrutura topológica",
+        "dor": "\"Tudo passa pelo meu sócio\" (Kickoff)",
+        "para": "o sócio técnico visita, orça e aprova desconto: a agenda dele é o limite da venda"
+      },
+      "diagrama": {
+        "no1": "C1",
+        "no2": "C2",
+        "no3": "SITE",
+        "no4": "INDIC",
+        "no5": "TEL",
+        "centro": "SÓCIO TÉCNICO",
+        "centro_papel": "VISITA E PREÇO"
+      },
+      "padrao": {
+        "nome": "Estrela com gargalo técnico",
+        "texto": "Os canais chegam aos dois consultores, mas visita, orçamento e desconto passam pelo sócio técnico."
+      },
+      "explicador": {
+        "tag": "O que é \"topologia\"",
+        "texto": "O mapa de como os canais de venda chegam a quem decide."
+      },
+      "niveis": {
+        "estrategico": "Onde o sócio comercial atua: metas e preço.",
+        "tatico": "Vazio hoje: ninguém organiza a agenda de visitas.",
+        "operacional": "Onde o sócio técnico está hoje, nas visitas."
+      },
+      "pontos": [
+        "**Visita concentrada:** só o sócio técnico mede o ambiente.",
+        "**Desconto sem regra:** cada caso vai ao sócio."
+      ],
+      "solucoes": [
+        {
+          "texto": "**Visita pelos consultores** com checklist de medição.",
+          "dono": "Sócio técnico · 30 dias (H1)"
+        },
+        {
+          "texto": "**Tabela de desconto** por faixa de valor.",
+          "dono": "Sócio comercial · 30 dias (H1)"
+        },
+        {
+          "texto": "**Agenda de visitas** única, vista por todos.",
+          "dono": "Coordenador de vendas · H2"
+        }
+      ],
+      "fonte": "Kickoff e cliente oculto.",
+      "formato_secundario": [],
+      "pausa": "Quantas visitas o sócio técnico faz por semana?"
+    }
+  },
+  "tela-06": {
+    "titulo": "Definir os papéis pelo trabalho que precisa acontecer",
+    "lede": "Redistribuir ou contratar depende da carga, da competência e da disponibilidade reais. Uma necessidade comprovada pode exigir contratação imediata.",
+    "degraus": [
+      {
+        "necessidade": "Responder e acompanhar cada oportunidade",
+        "papel": "Atendimento e vendas",
+        "agora": "Confirmar dono, tempo disponível e critério de passagem",
+        "condicao": "Se a carga já excede a capacidade e não há redistribuição viável, recomendar contratação com recurso e responsável"
+      }
+    ],
+    "limite": "A escada não impõe um período sem contratar. Toda decisão precisa de necessidade demonstrada, recurso, dono e alternativa viável.",
+    "pausa": "Quem hoje responde o WhatsApp à noite?",
+    "_estrutura_anterior": {
+      "amarra": {
+        "pilar": "Estrutura ideal do time",
+        "dor": "\"Tudo passa pelo meu sócio\" (Kickoff)",
+        "para": "um coordenador de vendas entre os sócios e os consultores"
+      },
+      "estrategico": {
+        "cargo": "Sócio comercial",
+        "papel": "metas, preço e contratos de manutenção"
+      },
+      "tatico": {
+        "cargo": "Coordenador de vendas",
+        "papel": "agenda de visitas e retomada"
+      },
+      "operacional_1": {
+        "cargo": "Atendimento",
+        "papel_linha1": "primeira resposta e",
+        "papel_linha2": "agendamento da visita"
+      },
+      "operacional_2": {
+        "cargo": "Consultores técnicos",
+        "papel_linha1": "visita, orçamento",
+        "papel_linha2": "e fechamento"
+      },
+      "passagem": {
+        "rotulo": "visita",
+        "registro": "ficha no CRM"
+      },
+      "nota": "Os dois consultores atuais fazem a visita; o atendimento pode ser um papel de meio período.",
+      "explicador": {
+        "tag": "Atendimento e consultor",
+        "texto": "O **atendimento** responde e agenda; o **consultor** visita e fecha."
+      },
+      "pausa": "Quem hoje responde o WhatsApp à noite?"
+    }
+  },
+  "tela-07": {
+    "amarra": {
+      "pilar": "Horizontes de Crescimento",
+      "dor": "\"No verão a gente não dá conta\" (Kickoff)",
+      "para": "a Vértice organiza a visita antes do pico de dezembro"
+    },
+    "explicador": "Três prazos que acontecem ao mesmo tempo: **H1** organiza a base, **H2** ganha tração com controle e **H3** escala com previsibilidade.",
+    "h1": {
+      "barra_prazo": "0-30 dias",
+      "barra_nome": "Fundação",
+      "prazo": "0 a 30 dias",
+      "nome": "Fundação.",
+      "pilares": "Visita na primeira conversa; retomada em 1, 3 e 7 dias; tabela de desconto; medição do site (vem da Semana 3).",
+      "metrica": "Visita agendada em 60% dos pedidos de orçamento."
+    },
+    "h2": {
+      "barra_prazo": "30-180 dias",
+      "barra_nome": "Tração Controlada",
+      "prazo": "30 a 180 dias",
+      "ligacao": "Com a visita organizada em H1, a Vértice aguenta mais pedidos.",
+      "nome": "Tração Controlada.",
+      "pilares": "CRM com agenda de visitas; contrato de manutenção em todo orçamento; Google Ads no pico (vem da Semana 3).",
+      "metrica": "30 contratos de manutenção ativos."
+    },
+    "h3": {
+      "barra_prazo": "6-12 meses",
+      "barra_nome": "Escala",
+      "prazo": "6 a 12 meses",
+      "ligacao": "Com a base de contratos de H2, a receita fica menos sazonal.",
+      "nome": "Escala com Previsibilidade.",
+      "pilares": "Receita de manutenção no inverno; terceiro consultor.",
+      "metrica": "Receita de junho a agosto igual a 50% da de dezembro."
+    }
+  },
+  "tela-08": {
+    "amarra": {
+      "pilar": "Indicadores e rotinas",
+      "dor": "\"Não sei quantos orçamentos viram obra\" (Kickoff)",
+      "para": "três números que o coordenador olha toda segunda-feira"
+    },
+    "indicadores": [
+      {
+        "nome": "Visita agendada",
+        "medir": "% de pedidos com visita",
+        "como": "CRM",
+        "formula": "Visitas / pedidos × 100",
+        "meta": "60%"
+      },
+      {
+        "nome": "Orçamento aceito",
+        "medir": "% de orçamentos fechados",
+        "como": "CRM",
+        "formula": "Fechados / enviados × 100",
+        "meta": "a medir nas primeiras 4 semanas"
+      },
+      {
+        "nome": "Contrato de manutenção",
+        "medir": "Contratos novos por mês",
+        "como": "CRM e financeiro",
+        "formula": "Contagem no mês",
+        "meta": "5 por mês"
+      }
+    ],
+    "rotinas": [
+      {
+        "rotina": "Agenda da semana (20 min)",
+        "frequencia": "Segunda",
+        "quem": "Coordenador e consultores"
+      },
+      {
+        "rotina": "Revisão de orçamentos (30 min)",
+        "frequencia": "Quinzenal",
+        "quem": "Sócios e coordenador"
+      },
+      {
+        "rotina": "Plano do pico (1h)",
+        "frequencia": "Outubro",
+        "quem": "Sócios"
+      }
+    ],
+    "premissas": [
+      "Responder no mesmo canal em que o cliente chamou",
+      "Oferecer dois horários de visita",
+      "Mandar o orçamento com foto do local medido",
+      "Evitar áudio longo",
+      "Evitar desconto antes da visita",
+      "Confirmar a visita na véspera"
+    ]
+  },
+  "tela-09": {
+    "abertura": "O funil da Vértice tem a visita no meio: é ali que se ganha ou se perde.",
+    "amarra": {
+      "pilar": "Funil de vendas",
+      "dor": "\"Não sei quantos orçamentos viram obra\" (Kickoff)",
+      "para": "cinco etapas contadas no CRM, do pedido à obra"
+    },
+    "rotulo_pontos": "Pontos de melhoria (P)",
+    "pontos": [
+      "Sem registro da origem do pedido.",
+      "Orçamento enviado sem visita não é separado do enviado com visita."
+    ],
+    "rotulo_solucoes": "Soluções (S)",
+    "solucoes": [
+      "Etapas nomeadas no CRM.",
+      "Origem obrigatória no primeiro contato."
+    ],
+    "explicador": {
+      "tag": "Lead e visita",
+      "texto": "**Lead** é quem pediu orçamento; a **visita** é a medição no local."
+    },
+    "piramide": {
+      "etapa1": {
+        "nome": "Pedido",
+        "detalhe": "a medir"
+      },
+      "etapa2": {
+        "nome": "Conversa",
+        "detalhe": "Atendimento"
+      },
+      "etapa3": {
+        "nome": "Visita agendada",
+        "detalhe": "meta: 60%"
+      },
+      "etapa4": {
+        "nome": "Visita feita",
+        "detalhe": "Consultor"
+      },
+      "etapa5": {
+        "nome": "Orçamento",
+        "detalhe": "Consultor"
+      },
+      "etapa6": {
+        "nome": "Negociação",
+        "detalhe": "Sócio comercial"
+      },
+      "etapa7": {
+        "nome": "Obra",
+        "detalhe": "Instalação"
+      }
+    },
+    "leitura": "A largura de cada faixa vai mostrar onde a Vértice perde o pedido.",
+    "pausa": "Quantos pedidos de orçamento chegaram no último mês?"
+  },
+  "tela-10": {
+    "amarra": {
+      "pilar": "Playbook de qualificação",
+      "dor": "\"Vamos em visita que não dá em nada\" (Kickoff)",
+      "para": "a regra que decide quando a visita vale o deslocamento"
+    },
+    "etapas": [
+      "Pedido qualificado",
+      "Visita confirmada"
+    ],
+    "criterios": [
+      {
+        "criterio": "Quem qualifica",
+        "por_etapa": [
+          "Atendimento",
+          "Coordenador de vendas"
+        ]
+      },
+      {
+        "criterio": "O que precisa estar preenchido",
+        "por_etapa": [
+          "Bairro, tipo de imóvel, número de aparelhos",
+          "Data, endereço e quem recebe"
+        ]
+      },
+      {
+        "criterio": "Regra de passagem",
+        "por_etapa": [
+          "Do atendimento ao coordenador com a ficha completa",
+          "Do coordenador ao consultor 24h antes"
+        ]
+      },
+      {
+        "criterio": "Prazo",
+        "por_etapa": [
+          "Até 30 minutos",
+          "Visita em até 3 dias úteis"
+        ]
+      }
+    ],
+    "pontuacao": {
+      "texto": "Sem pontuação por enquanto: dois critérios bastam até 50 pedidos registrados.",
+      "pendencia": ""
+    },
+    "acoes": [
+      {
+        "rotulo": "Ação 1 →",
+        "titulo": "Ficha de pedido",
+        "texto": "Quatro campos obrigatórios no primeiro contato."
+      },
+      {
+        "rotulo": "Ação 2 →",
+        "titulo": "Confirmação",
+        "texto": "Mensagem na véspera da visita."
+      },
+      {
+        "rotulo": "Ação 3 →",
+        "titulo": "Roteiro de visita",
+        "texto": "Checklist de medição para os consultores."
+      }
+    ]
+  },
+  "tela-11": {
+    "abertura": "O quadro onde cada pedido da Vértice fica visível até virar obra.",
+    "amarra": {
+      "pilar": "Desenho do CRM e stack",
+      "dor": "\"A gente manda o orçamento e o cliente some\" (Kickoff)",
+      "para": "um quadro com a agenda de visitas e o alerta de retomada"
+    },
+    "rotulo_pontos": "Pontos de melhoria (P)",
+    "pontos": [
+      "Pedidos em dois celulares.",
+      "Agenda de visitas em papel."
+    ],
+    "rotulo_solucoes": "Soluções (S)",
+    "solucoes": [
+      "CRM com WhatsApp nativo e funil em quadro.",
+      "Agenda de visitas dentro do CRM."
+    ],
+    "colunas": [
+      {
+        "etapa": "Pedido",
+        "cartoes": [
+          "",
+          "",
+          ""
+        ],
+        "regra": "Origem registrada"
+      },
+      {
+        "etapa": "Visita agendada",
+        "cartoes": [
+          ""
+        ],
+        "regra": "Confirmação na véspera"
+      },
+      {
+        "etapa": "Orçamento",
+        "cartoes": [
+          "",
+          ""
+        ],
+        "regra": "Retomada em 1, 3 e 7 dias"
+      },
+      {
+        "etapa": "Negociação",
+        "cartoes": [
+          ""
+        ],
+        "regra": "Desconto pela tabela"
+      },
+      {
+        "etapa": "Obra",
+        "cartoes": [
+          ""
+        ],
+        "regra": "Oferta de manutenção"
+      }
+    ],
+    "descarte": {
+      "etapa": "Perdido",
+      "regra": "Motivo obrigatório"
+    },
+    "automacoes": [
+      {
+        "rotulo": "Automação 1 →",
+        "titulo": "Retomada",
+        "texto": "Aviso ao consultor em 1, 3 e 7 dias."
+      },
+      {
+        "rotulo": "Automação 2 →",
+        "titulo": "Manutenção",
+        "texto": "Lembrete ao cliente 6 meses depois da obra."
+      }
+    ],
+    "nota": "CRM como capacidade: WhatsApp nativo, funil em quadro, agenda e automação de mensagens.",
+    "stack_titulo": "ferramentas e integração",
+    "stack": [
+      {
+        "camada": "Aquisição",
+        "ferramenta": "Google Ads e site",
+        "uso": "Pedido de orçamento com origem.",
+        "destaque": 0
+      },
+      {
+        "camada": "Atendimento e CRM",
+        "ferramenta": "CRM com WhatsApp",
+        "uso": "Quadro, agenda e retomada.",
+        "destaque": 1
+      },
+      {
+        "camada": "Dados",
+        "ferramenta": "Planilha financeira",
+        "uso": "Contratos de manutenção ativos.",
+        "destaque": 0
+      }
+    ],
+    "apoio": [
+      {
+        "tag": "Documentação",
+        "titulo": "Google Drive",
+        "texto": "Checklist de visita e tabela de desconto."
+      }
+    ],
+    "pausa": "Quem vai cuidar do quadro todo dia?"
+  },
+  "tela-12": {
+    "motivos": {
+      "titulo": "Por que o orçamento não vira obra",
+      "abertura": "Motivos observados no cliente oculto e no Kickoff, sem percentual até haver registro.",
+      "lista": [
+        {
+          "tipo": "Atendimento",
+          "motivo": "Visita demorada",
+          "evidencia": "Concorrentes agendam na hora."
+        },
+        {
+          "tipo": "Preço",
+          "motivo": "Sem parcelamento",
+          "evidencia": "Dois concorrentes parcelam."
+        },
+        {
+          "tipo": "Retomada",
+          "motivo": "Orçamento esquecido",
+          "evidencia": "Nenhum contato em 7 dias."
+        },
+        {
+          "tipo": "Oferta",
+          "motivo": "Sem manutenção",
+          "evidencia": "Dois concorrentes oferecem junto."
+        },
+        {
+          "tipo": "Prazo",
+          "motivo": "Pico de dezembro",
+          "evidencia": "Kickoff: fila de 3 semanas."
+        }
+      ],
+      "rotulo_pontos": "Pontos de melhoria (P)",
+      "pontos": [
+        "Motivo de perda não registrado.",
+        "Sem lista de clientes antigos."
+      ],
+      "rotulo_solucoes": "Soluções (S)",
+      "solucoes": [
+        "Motivo obrigatório ao marcar Perdido.",
+        "Lista de obras dos últimos 2 anos."
+      ],
+      "fonte": "**Base:** cliente oculto e Kickoff."
+    },
+    "amarra": {
+      "pilar": "Motivos de perda e base de clientes",
+      "dor": "\"A gente manda o orçamento e o cliente some\" (Kickoff)",
+      "para": "os clientes de obra antiga são a primeira lista de manutenção da Vértice"
+    },
+    "base": {
+      "titulo": "Quem já instalou com a Vértice",
+      "lede": "Cada obra antiga é um contrato de manutenção possível. A lista sai do financeiro.",
+      "rotulo_pontos": "Pontos de melhoria (P)",
+      "pontos": [
+        "Clientes antigos sem contato.",
+        "Sem data da última manutenção."
+      ],
+      "rotulo_solucoes": "Soluções (S)",
+      "solucoes": [
+        "Lista de obras com data.",
+        "Oferta de manutenção por WhatsApp."
+      ],
+      "reativacao": [
+        {
+          "k": "1",
+          "titulo": "Lista",
+          "texto": "Obras de 2 anos.",
+          "destaque": 0
+        },
+        {
+          "k": "2",
+          "titulo": "Mensagem",
+          "texto": "Oferta de limpeza.",
+          "destaque": 0
+        },
+        {
+          "k": "3",
+          "titulo": "Visita",
+          "texto": "Agendada pelo atendimento.",
+          "destaque": 0
+        },
+        {
+          "k": "4",
+          "titulo": "Contrato",
+          "texto": "Manutenção semestral.",
+          "destaque": 1
+        }
+      ],
+      "fonte": "**Base:** planilha financeira da Vértice."
+    },
+    "pausa": "Quantas obras vocês fizeram nos últimos dois anos?"
+  },
+  "tela-13": {
+    "abertura": "Depois da obra, a Vértice volta a cada seis meses; e cada mudança tem dono e prazo.",
+    "amarra": {
+      "pilar": "Pós-venda e implantação",
+      "dor": "\"Depois da obra a gente nunca mais fala com o cliente\" (Kickoff)",
+      "para": "a manutenção vira receita no inverno"
+    },
+    "posvenda_titulo": "da obra à manutenção",
+    "posvenda": [
+      {
+        "k": "Obra",
+        "titulo": "Entrega",
+        "texto": "Foto e garantia por WhatsApp.",
+        "destaque": 0
+      },
+      {
+        "k": "6 meses",
+        "titulo": "Lembrete",
+        "texto": "Oferta de limpeza.",
+        "destaque": 0
+      },
+      {
+        "k": "Contrato",
+        "titulo": "Manutenção",
+        "texto": "Duas visitas por ano.",
+        "destaque": 1
+      }
+    ],
+    "implantacao": [
+      {
+        "item": "CRM com agenda",
+        "prazo": "30 dias (H1)",
+        "quem": "Coordenador de vendas",
+        "dependencia": "Número de WhatsApp único"
+      },
+      {
+        "item": "Tabela de desconto",
+        "prazo": "30 dias (H1)",
+        "quem": "Sócio comercial",
+        "dependencia": "Margem por serviço"
+      },
+      {
+        "item": "Checklist de visita",
+        "prazo": "30 dias (H1)",
+        "quem": "Sócio técnico",
+        "dependencia": "Tempo do sócio técnico"
+      },
+      {
+        "item": "Contrato de manutenção",
+        "prazo": "H2",
+        "quem": "Sócio comercial",
+        "dependencia": "Modelo de contrato revisado"
+      }
+    ],
+    "pendencias": [
+      "Margem por serviço. Dono: Sócio comercial",
+      "Lista de obras de 2 anos. Dono: Financeiro",
+      "Modelo de contrato. Dono: Sócio comercial"
+    ],
+    "fonte": "**Base:** telas 01 a 09 deste encontro.",
+    "pausa": "O contrato de manutenção já existe em algum modelo?"
+  },
+  "tela-14": {
+    "_nota": "De uma a cinco ações; uma única comece_aqui, na primeira posição. Dono proposto até aceite. Desdobramentos por horizonte ficam no detalhe.",
+    "titulo": "O orçamento sai sem retomada: o plano começa pela visita na primeira conversa",
+    "trava": "\"A gente manda o orçamento e o cliente some\" · Kickoff · cliente oculto",
+    "acoes": [
+      {
+        "acao": "Visita na primeira conversa. Retomada em 1, 3 e 7 dias. Origem do pedido registrada.",
+        "dono": "Coordenador de vendas (proposto)",
+        "prazo": "Primeira semana, após validar a rotina",
+        "comece_aqui": true
+      },
+      {
+        "acao": "Parcelamento junto do valor.",
+        "dono": "Sócio comercial (proposto)",
+        "prazo": "Até o próximo encontro, após liberação",
+        "comece_aqui": false
+      },
+      {
+        "acao": "Consultores fazem a visita. Checklist de medição. Tabela de desconto.",
+        "dono": "Sócio técnico (proposto)",
+        "prazo": "Até o próximo encontro, após liberação",
+        "comece_aqui": false
+      }
+    ],
+    "pausa": "Esse plano cabe na rotina da Vértice e resolve o orçamento esquecido?",
+    "gancho": "Na Semana 5, a hipótese será revista com a evidência do teste, a conta da receita e o Mapa de Ações.",
+    "estado": "Hipótese de trabalho: atendimento e retomada; teste do dobro inconclusivo até medir a operação.",
+    "dobro": [
+      {
+        "pergunta": "O atendimento absorve o dobro dos pedidos?",
+        "resposta": "Inconclusivo",
+        "evidencia": "Medir tempo de resposta, fila e contatos por pessoa numa amostra."
+      },
+      {
+        "pergunta": "A operação entrega o dobro no prazo?",
+        "resposta": "Inconclusivo",
+        "evidencia": "Conferir capacidade, prazo prometido e retrabalho antes de ampliar demanda."
+      },
+      {
+        "pergunta": "A gestão decide com o dobro de negociações?",
+        "resposta": "Inconclusivo",
+        "evidencia": "Testar alçada e registrar o tempo de espera por aprovação."
+      },
+      {
+        "pergunta": "O caixa suporta o dobro do ciclo?",
+        "resposta": "Inconclusivo",
+        "evidencia": "Conferir margem, prazo de recebimento e necessidade de capital."
+      }
+    ],
+    "corda": "Capacidade ainda a medir: limitar novos testes à carga que a equipe confirmar; revisar a hipótese ao medir fila e prazo, ou antes se surgir outro gargalo."
+  },
+  "tela-03": {
+    "titulo": "A decisão depende da base medida",
+    "estado": "A verificar: objetivo, período e capacidade precisam de confirmação",
+    "meta": "Meta não declarada nesta amostra; confirmar com o responsável",
+    "base": "Base atual e distância a medir; sem percentual de lacuna calculado",
+    "criterio_avanco": "Registrar objetivo, unidade, período e origem; comparar com a base na mesma unidade antes de definir a distância."
+  }
+}
