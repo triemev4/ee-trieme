@@ -19,6 +19,8 @@ python --version
 
 ## Instalar pelo marketplace público
 
+No Windows, recomendamos a instalação pelo ZIP, descrita abaixo. Na validação com Claude Code 2.1.304, o clone direto pelo CLI encontrou erros `EBUSY`/`EPERM` ao renomear a pasta temporária; o ZIP foi baixado e instalado com sucesso. Se encontrar esse erro, use a opção pelo ZIP.
+
 No terminal do sistema ou no terminal integrado do Orca, antes de iniciar uma sessão do Claude Code, adicione e instale o marketplace do GitHub:
 
 ```text
@@ -32,7 +34,7 @@ O repositório público pode ser baixado sem autenticação GitHub. O uso do Cla
 
 Baixe o ZIP da versão `v1.3.0` em:
 
-<https://github.com/triemev4/ee-trieme/archive/refs/tags/v1.3.0.zip>
+[Baixar ee-trieme-1.3.0.zip](https://github.com/triemev4/ee-trieme/releases/download/v1.3.0/ee-trieme-1.3.0.zip)
 
 Extraia o arquivo e adicione a pasta extraída como marketplace local:
 
