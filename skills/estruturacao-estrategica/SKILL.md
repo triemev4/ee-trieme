@@ -47,7 +47,7 @@ Ler (base, esqueleto, as seções da ficha que o guia pede e os insumos novos) �
 
 **Modelo dos agentes.** Todo guia que chama um agente passa `model: "sonnet"` na chamada, porque o parâmetro da chamada vale mais que o do arquivo do agente. As exceções são a cabeceira da mesa e o `designer-lp-stitch`: o guia chama os dois sem passar `model`, e eles rodam no modelo do próprio arquivo (opus), porque os dois julgam qualidade (o plano e o visual).
 
-Ficam com o consultor: enviar qualquer material, toda ação com o cliente, decidir a trava e a restrição principal, aprovar mudança de guia (curador). Os gatilhos do pacote (painel ao abrir a sessão, verificação ao gravar um HTML, lembrete da ficha e medição de uso ao fim da tarefa) rodam sozinhos; aviso de gatilho se trata antes de seguir. Relatório de uso para a banca: `python "${CLAUDE_PLUGIN_ROOT}/scripts/relatorio_uso.py" "<pasta EE>"`.
+Ficam com o consultor: enviar qualquer material, toda ação com o cliente, decidir a trava e a restrição principal, aprovar mudança de guia (curador). Os gatilhos do pacote (painel ao abrir a sessão, verificação ao gravar um HTML, lembrete da ficha e medição de uso ao fim da tarefa) rodam sozinhos; aviso de gatilho se trata antes de seguir. Gasto de tokens e tempo por etapa: `/ee-trieme:uso-tokens` e `/ee-trieme:tempo-etapas`. Relatório completo para a banca, com CSV: `python "${CLAUDE_PLUGIN_ROOT}/scripts/relatorio_uso.py" "<pasta EE>"`.
 
 ## Hierarquia
 Base > esqueleto da semana > guia da etapa > padrões > referências visuais neutras, que orientam apenas o layout; nas Semanas 3 a 5 o layout vem do molde (`moldes/`). Divergência entre arquivos: vale o de cima, e o consultor avisa o curador, que corrige no pacote. Ninguém grava dentro da pasta do pacote.

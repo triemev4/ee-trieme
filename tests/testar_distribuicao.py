@@ -220,6 +220,46 @@ class DistribuicaoPublica(unittest.TestCase):
                     problemas.append(f"{p.relative_to(RAIZ)}: {target}")
         self.assertEqual(problemas, [], "\n".join(problemas))
 
+    def test_08_monitor_de_uso(self):
+        """Sessão sintética gravada pela medição real (medir_uso) e lida pelo monitor (tokens, tempo, conversa)."""
+        medir = carregar("publico_medir_uso", RAIZ / "scripts/medir_uso.py")
+        ee = self.saida / "monitor-EE"
+        cliente = ee / "Clientes" / "1. Exemplo Ficticio"
+        for sub in ("1. Kick-Off", "2. Pesquisa de Mercado", "_ensaios-internos"):
+            (cliente / sub).mkdir(parents=True, exist_ok=True)
+        (cliente / "Exemplo Ficticio.md").write_text(
+            "---\ncliente: Exemplo Ficticio\n---\n\n## Status\n- [ ] Semana 2\n", encoding="utf-8")
+        historico = self.saida / "monitor-sessao.jsonl"
+        linhas = []
+        for i, arquivo in enumerate(["1. Kick-Off/a.html", "1. Kick-Off/a.html", "2. Pesquisa de Mercado/p.html"]):
+            ts = f"2026-01-05T10:{i * 5:02d}:00Z"
+            linhas.append({"type": "user", "timestamp": ts, "message": {"role": "user", "content": "x"}})
+            linhas.append({"type": "assistant", "timestamp": ts, "message": {
+                "id": f"msg_{i}", "model": "claude-sonnet-5-5",
+                "usage": {"input_tokens": 10, "output_tokens": 100, "cache_read_input_tokens": 1000 * (i + 1),
+                          "cache_creation_input_tokens": 50},
+                "content": [{"type": "tool_use", "name": "Write",
+                             "input": {"file_path": f"Clientes/1. Exemplo Ficticio/{arquivo}"}}]}})
+        historico.write_text("\n".join(json.dumps(l) for l in linhas) + "\n", encoding="utf-8")
+        self.assertEqual(len(medir.medir(historico, "abcd1234-teste", ee, prazo_s=60)), 1)
+        registro = cliente / "_ensaios-internos/registro.md"
+        texto = registro.read_text(encoding="utf-8").replace(
+            "| Kickoff (preparo = pré-Kickoff) | não medido | não medido | não medido |",
+            "| Kickoff (preparo = pré-Kickoff) | 3 | 1h30 | 90 min |")
+        registro.write_text(texto, encoding="utf-8")
+        script = RAIZ / "scripts/monitor_uso.py"
+        tokens = self.comando(script, "tokens", ee).stdout
+        self.assertIn("Kickoff (com pré e pós)", tokens)
+        self.assertIn("também Pesquisa de Mercado", tokens)
+        tempo = self.comando(script, "tempo", ee, "--cliente", "exemplo").stdout
+        self.assertRegex(tempo, r"\| Kickoff \(com pré e pós\) \| 6 \| 6 \| 0 \|")
+        self.assertRegex(tempo, r"\| \*\*Total\*\* \| 48 \|")
+        self.assertIn("Falta registrar", tempo)
+        conversa = self.comando(script, "conversa", ee, "--historico", historico, "--limite", "3000").stdout
+        self.assertIn("relê agora 3", conversa)
+        self.assertIn("AVISO conversa pesada", conversa)
+        self.assertIn("Exemplo Ficticio", conversa)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
