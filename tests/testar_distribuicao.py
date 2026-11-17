@@ -109,7 +109,7 @@ class DistribuicaoPublica(unittest.TestCase):
     def test_01_metadados_e_estrutura(self):
         plugin = ler_json(RAIZ / ".claude-plugin/plugin.json")
         self.assertEqual(plugin["name"], "ee-trieme")
-        self.assertEqual(plugin["version"], "1.3.0")
+        self.assertEqual(plugin["version"], "1.4.0")
         self.assertTrue(plugin["description"])
         self.assertTrue(plugin["author"]["name"])
         mercado = ler_json(RAIZ / ".claude-plugin/marketplace.json")

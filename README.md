@@ -2,7 +2,7 @@
 
 Plugin público `ee-trieme` para apoiar consultores na execução da Estruturação Estratégica (EE) com Claude Code. Reúne guias por etapa, padrões, modelos, moldes HTML e scripts locais. Os exemplos distribuídos são fictícios; dados e conclusões do projeto devem vir das fontes de cada cliente.
 
-Versão **1.3.0**. [Baixar a versão](https://github.com/triemev4/ee-trieme/releases/tag/v1.3.0) · [Verificações da distribuição](docs/validacao.md).
+Versão **1.4.0**. [Baixar a versão](https://github.com/triemev4/ee-trieme/releases/tag/v1.4.0) · [Verificações da distribuição](docs/validacao.md).
 
 ## Requisitos
 
@@ -32,14 +32,14 @@ O repositório público pode ser baixado sem autenticação GitHub. O uso do Cla
 
 ## Instalar pelo ZIP
 
-Baixe o ZIP da versão `v1.3.0` em:
+Baixe o ZIP da versão `v1.4.0` em:
 
-[Baixar ee-trieme-1.3.0.zip](https://github.com/triemev4/ee-trieme/releases/download/v1.3.0/ee-trieme-1.3.0.zip)
+[Baixar ee-trieme-1.4.0.zip](https://github.com/triemev4/ee-trieme/releases/download/v1.4.0/ee-trieme-1.4.0.zip)
 
 Extraia o arquivo e adicione a pasta extraída como marketplace local:
 
 ```text
-claude plugin marketplace add "C:\caminho\para\ee-trieme-1.3.0" --scope user
+claude plugin marketplace add "C:\caminho\para\ee-trieme-1.4.0" --scope user
 claude plugin install ee-trieme@ee-trieme --scope user
 ```
 
